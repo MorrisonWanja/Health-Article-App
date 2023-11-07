@@ -45,6 +45,7 @@ function AddArticle(){
 
     return(
         <>
+        <div className="add-new-article">
         <form className="new-article" onSubmit={handleSubmit} autoComplete="off">
         <input type="text" name="name" placeholder="Name of your article" 
         value={name}
@@ -68,6 +69,7 @@ function AddArticle(){
          <input type="submit" value="Add Article" />
         </form>
         <p>Welcome to my section</p>
+        </div>
         </>
     )
 }
