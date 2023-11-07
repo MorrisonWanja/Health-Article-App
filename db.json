@@ -1,328 +1,334 @@
 {
-    "articles": [
-      {
-        "id": 6,
-        "name": "THE WEEK",
-        "author": "PTI",
-        "title": "Good HDL cholesterol may keep Alzheimer's away: study - The Week",
-        "description": "Having good cholesterol or high-density lipoprotein (HDL) in the body is essential to health as it may protect the brain and keep Alzheimer's disease at bay, according to a recent study. Researchers from University of Southern California's (USC) Keck School o…",
-        "image": "https://www.theweek.in/content/dam/week/news/2020/images/2022/2/10/HDL-Good-HDL-cholesterol-high-density-lipoprotein-LDL.jpg",
-        "content": "Having good cholesterol or high-density lipoprotein (HDL) in the body is essential to health as it may protect the brain and keep Alzheimer's disease at bay, according to a recent study.\r\nResearchers… [+2926 chars]"
-      },
-      {
-        "id": 6,
-        "name": "The Times of India",
-        "author": "TIMESOFINDIA.COM",
-        "title": "CDC confirms 4 Americans got Coronavirus from Mink; here is all you need to know about the first animal-to-human transmission of COVID virus - Times of India",
-        "description": "The US health agency recently revealed that a variant of COVID witnessed majorly in mink in 2020 had infected at least four Americans.",
-        "image": "https://static.toiimg.com/photo/90979239.cms",
-        "content": "COVID-19 causing coronavirus belongs to a large family of viruses called coronavirus. As per the information available on the website of the CDC, some coronaviruses cause cold-like illnesses in peopl… [+728 chars]"
-      },
-      {
-        "id": 7,
-        "name": "ANI News",
-        "author": null,
-        "title": "Genetic differences can affect ability to utilize energy of various nutrients: Report - ANI News",
-        "description": "Helsinki [Finland], April 21 (ANI): According to a new study by the University of Helsinki, minor genetic differences can affect the ability to utilize the energy of various nutrients.",
-        "image": "https://aniportalimages.s3.amazonaws.com/media/details/__sized__/GENEEEEEEEE2022042109041120220421102941-thumbnail-154x87-70.jpg",
-        "content": "ANI | Updated: Apr 21, 2022 15:59 IST\r\nHelsinki [Finland], April 21 (ANI): According to a new study by the University of Helsinki, minor genetic differences can affect the ability to utilize the ener… [+3713 chars]"
-      },
-      {
-        "id": 8,
-        "name": "India Education Diary",
-        "author": "iednewsdesk",
-        "title": "Johns Hopkins University: Mediterranean-Style Diet Further Linked to Reduced Risk of Preeclampsia in Pregnant Women of All Races - India Education Diary",
-        "description": "A new Johns Hopkins Medicine study that surveyed a racially diverse group of more than 8,000 women has added to evidence that following a Mediterranean-style diet could lower the risk of preeclampsia by at least 20%.Preeclampsia is a potentially leth",
-        "image": "https://indiaeducationdiary.in/wp-content/uploads/2021/05/Johns-Hopkins-University.jpg",
-        "content": "A new Johns Hopkins Medicine study that surveyed a racially diverse group of more than 8,000 women has added to evidence that following a Mediterranean-style diet could lower the risk of preeclampsia… [+4835 chars]"
-      },
-      {
-        "id": 9,
-        "name": "India Education Diary",
-        "author": "iednewsdesk",
-        "title": "Johns Hopkins University: Lab Grown, Self-Sustainable Muscle Cells Repair Muscle Injury and Disease, Mouse Study Shows - India Education Diary",
-        "description": "In proof-of-concept experiments, Johns Hopkins Medicine scientists say they have successfully cultivated human muscle stem cells capable of renewing themselves and repairing muscle tissue damage in mice, potentially advancing efforts to treat muscle",
-        "image": "https://indiaeducationdiary.in/wp-content/uploads/2021/05/Johns-Hopkins-University.jpg",
-        "content": "In proof-of-concept experiments, Johns Hopkins Medicine scientists say they have successfully cultivated human muscle stem cells capable of renewing themselves and repairing muscle tissue damage in m… [+4568 chars]"
-      },
-      {
-        "id": 10,
-        "name": "The Times of India",
-        "author": "Thank you for reading my article",
-        "title": "Did you have pneumonia during Covid infection? You may be at a great risk of dementia, says study - Economic Times",
-        "description": "Those with Covid pneumonia have higher risk of dementia than others.",
-        "image": "https://img.etimg.com/thumb/msid-90978178,width-1070,height-580,imgsize-1507897,overlay-etpanache/photo.jpg",
-        "content": "The long term impact of Covid is truly taking a new meaning. According to a recent study conducted by the University of Missouri (MU) researchers, patients who suffered from pneumonia during their Co… [+1679 chars]"
-      },
-      {
-        "id": 11,
-        "name": "The Times of India",
-        "author": "ET HealthWorld",
-        "title": "Bacteria in urine may signal aggressive prostate cancer: Study - ETHealthWorld",
-        "description": "Researchers in the UK have identified five types of bacteria in urine which may be linked to aggressive prostate cancer. The findings, published in the journal European Urology Oncology, could help pave the way for treatments that could target these particula…",
-        "image": "https://etimg.etb2bimg.com/thumb/msid-90976478,imgsize-63992,width-1200,height-628,overlay-ethealthworld/bacteria-in-urine-may-signal-aggressive-prostate-cancer-study.jpg",
-        "content": "London, Researchers in the UK have identified five types of bacteria in urine which may be linked to aggressive prostate cancer. The findings, published in the journal European Urology Oncology, coul… [+3001 chars]"
-      },
-      {
-        "id": 12,
-        "name": "Down To Earth Magazine",
-        "author": null,
-        "title": "Genetically modified mosquitoes for controlling vector-borne diseases? Successful trial gives hope - Down To Earth Magazine",
-        "description": "The findings were achieved after a decade of fight for public acceptance, regulatory approvals",
-        "image": "https://cdn.downtoearth.org.in/library/large/2022-04-21/0.27720900_1650526400_istock-1033519616.jpg",
-        "content": "The findings were achieved after a decade of fight for public acceptance, regulatory approvalsPreliminary results of an open-air study of genetically engineered mosquitoes — with an aim to suppress a… [+3671 chars]"
-      },
-      {
-        "id": 13,
-        "name": "The Irish Times",
-        "author": "Gina Kolata",
-        "title": "Study finds no benefit to restricting diet by time of the day - The Irish Times",
-        "description": "Research carried out in China included 139 people with obesity",
-        "image": "https://www.irishtimes.com/image-creator/?id=1.4858301&origw=1440",
-        "content": "The weight-loss idea is quite appealing: Limit your eating to a period of six to eight hours each day, during which you can have whatever you want.\r\nStudies in mice seemed to support so-called time-r… [+5057 chars]"
-      },
-      {
-        "id": 14,
-        "name": "The Weather Channel",
-        "author": null,
-        "title": "During Pregnancy, Inhaled Nanoparticles Can Enter the Placenta from Lungs, Cause Low Birth Weight in Babies: Study | The Weather Channel - Articles from The Weather Channel | weather.com - The Weather Channel",
-        "description": "Nanoparticles are particles between 1 and 100 nanometers wide and are found in thousands of common products such as sunscreens, pharmaceuticals and sports equipment. - Articles from The Weather Channel | weather.com",
-        "image": "https://s.w-x.co/in-fetus.jpg",
-        "content": "Inhaling harmful nanoparticles during pregnancy can cause them to escape the lungs and enter the placenta, resulting in babies with low birth weights, according to a study.\r\nNanoparticles are particl… [+2335 chars]"
-      },
-      {
-        "id": 15,
-        "name": "Zoom",
-        "author": "TN Digital",
-        "title": "Intermittent fasting is not for all, experts list health problems that could worsen on this diet - Times Now",
-        "description": "Intermittent fasting decreases glucose concentration and increases fatty acid oxidation which helps the body break down stored fats.",
-        "image": "https://static.tnn.in/thumb/msid-90974386,imgsize-100,width-1280,height-720,resizemode-75/90974386.jpg",
-        "content": "As COVID-19 cases rise in Delhi, here's what experts have to say on Omicron variant, opening of schools, vaccination and more"
-      },
-      {
-        "id": 16,
-        "name": "News18",
-        "author": "Lifestyle Desk",
-        "title": "Worried About Your Family’s Health Due to White Sugar? Here Are Some Amazing Healthy Alternatives - News18",
-        "description": "To help you make better diet choices and yet continue enjoying the same sweetness, here are 5 healthy substitutes to processed sugar that not only make your food tasty but also have their own health benefits.",
-        "image": "https://images.news18.com/ibnlive/uploads/2021/12/sugar-2-164088097016x9.jpg",
-        "content": "While sugary foods and sweets uplift our moods like nothing else, it isnt hidden from anyone that sugar is more harmful than beneficial. Excessive processed sugar consumption can cause chronic health… [+1943 chars]"
-      },
-      {
-        "id": 17,
-        "name": "Citytoday.news",
-        "author": "Murali",
-        "title": "Liver cancer is increasing because of unhealthy lifestyle – Mysuru Today - citytoday",
-        "description": "Prime News, National, Karnataka, Health, Disease, Mysuru, April 21:- Liver cancer is rising because of an unhealthy lifestyle, said Dr M S Vishveshwara, Chief Radiation Oncologist and Medical Superint",
-        "image": null,
-        "content": "Prime News, National, Karnataka, Health, Disease, Mysuru, April 21:- Liver cancer is rising because of an unhealthy lifestyle, said Dr M S Vishveshwara, Chief Radiation Oncologist and Medical Superin… [+2215 chars]"
-      },
-      {
-        "id": 18,
-        "name": "News-Medical.Net",
-        "author": null,
-        "title": "What Diseases Can You Get From Mosquitoes? - News-Medical.Net",
-        "description": "Mosquito-borne diseases are infectious diseases that are spread by the bite of infected mosquitoes carrying the pathogens.",
-        "image": "https://d2jx2rerrg6sh3.cloudfront.net/images/Article_Images/ImageForArticle_22408_16505192945721791.jpg",
-        "content": "IntroductionBackgroundProtective measuresDiseases by Mosquito TypeMalariaDengueYellow FeverZikaChikungunyaWest Nile VirusJapanese Encephalitis (JE)Lymphatic FilariasisReferencesFurther Reading\r\nMosqu… [+12385 chars]"
-      },
-      {
-        "id": 19,
-        "name": "The Indian Express",
-        "author": "AP",
-        "title": "Puzzling outbreak of liver disease in kids spreads to EU, US - The Indian Express",
-        "description": "British officials reported 74 cases of hepatitis, or liver inflammation, found in children since January.",
-        "image": "https://images.indianexpress.com/2022/04/world-hepatitis-day_1200_thinkstockphotos-482859418.jpg",
-        "content": "Health officials say they have detected more cases of a mysterious liver disease in children that was first identified in Britain, with new infections spreading to Europe and the U.S.Last week, Briti… [+2340 chars]"
-      },
-      {
-        "id": 20,
-        "name": "News-Medical.Net",
-        "author": null,
-        "title": "Researchers test an experimental treatment for metastatic cancer - News-Medical.Net",
-        "description": "Researchers at the University of Oklahoma are testing an experimental treatment for metastatic cancer focusing on pancreatic cancer.",
-        "image": "https://d2jx2rerrg6sh3.cloudfront.net/image-handler/picture/2014/7/174318220-620x480.jpg",
-        "content": "Researchers at the University of Oklahoma are testing an experimental treatment for metastatic cancer focusing on pancreatic cancer. Metastasis, the condition when cancer cells spread beyond the orig… [+3107 chars]"
-      },
-      {
-        "id": 21,
-        "name": "News-Medical.Net",
-        "author": null,
-        "title": "Revolutionary mRNA vaccine technology: History, facts and the future - News-Medical.Net",
-        "description": "mRNA vaccine technology is a field full of promise – as well as unanswered questions – for communities living with the burden of the world’s most deadly infectious diseases.",
-        "image": "https://d2jx2rerrg6sh3.cloudfront.net/image-handler/picture/2014/7/Malaria_3-620x480.jpg",
-        "content": "mRNA vaccine technology is a field full of promise – as well as unanswered questions – for communities living with the burden of the world’s most deadly infectious diseases.\r\nDespite appearances, mRN… [+7815 chars]"
-      },
-      {
-        "id": 22,
-        "name": "BBC Focus Magazine",
-        "author": "Victoria Woollaston",
-        "title": "“Microbiome friendly” beauty products: Do they work? - BBC Science Focus Magazine",
-        "description": "More and more hygiene products are claiming to be ‘microbiome friendly’ but how important is our skin microbiome, and can an out-of-whack bacterial community lead to conditions like eczema and dry skin?",
-        "image": "https://images.immediate.co.uk/production/volatile/sites/4/2022/04/Skin-microbiome-products-326e8ad.jpg",
-        "content": "At the moment were born, each of us is seeded with trillions of bacteria cells that live and thrive on our skin. These cells form whats known as our skin microbiome. The exact makeup of each persons … [+7887 chars]"
-      },
-      {
-        "id": 23,
-        "name": "Livemint",
-        "author": "Livemint",
-        "title": "More Impactful Omicron Sublineages: Virologist Explains 3 Ways Covid Variant Is Evolving | Mint - Mint",
-        "description": "Noting that Omicron emerged as three distinct lineages BA.1, BA.2 and BA.3, he said that despite the head start of BA.1, we've seen BA.2 overtake BA.1 across the world over the course of January to April.",
-        "image": "https://images.livemint.com/img/2022/04/21/600x338/coronavirus_1608178200730_1608178208280_1650507833493.PNG",
-        "content": "With too many Omicron sub-variants circulating at the moment, eminent virologist Trevor Bedford pointed out we are likely to see more impactful sublineages of the variant in the recent future. He fur… [+2338 chars]"
-      },
-      {
-        "id": 24,
-        "name": "Asianetnews.com",
-        "author": "Team Newsable",
-        "title": "Breakfast that can control your 'blood sugar' levels: protein to fibre-rich fruits and more - Asianet Newsable ",
-        "description": "Here are some healthy breakfast options that can control your blood sugar levels; read on",
-        "image": "https://static-ai.asianetnews.com/images/01fsnvn31yd12wmpa8rdvbemr1/omicron-affecting-diabetic-patient--4-_1200x630xt.jpg",
-        "content": "Here are some healthy breakfast options that can control your blood sugar levels; read on\r\nMany experts recommend including all food categories in breakfast to effectively regulate sugar levels, incl… [+2148 chars]"
-      },
-      {
-        "id": 25,
-        "name": "News-Medical.Net",
-        "author": null,
-        "title": "Antibody response to Pfizer-BioNTech COVID-19 vaccine over 6 months - News-Medical.Net",
-        "description": "A new study published in PLoS ONE characterizes the antibody response to BNT162b2, the Pfizer-BioNTech COVID-19 vaccine",
-        "image": "https://d2jx2rerrg6sh3.cloudfront.net/images/news/ImageForNews_711280_16504680350696189.jpg",
-        "content": "The binding responses and temporal dynamics of antibodies elicited against the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) due to vaccination must be fully understood to design futur… [+5626 chars]"
-      },
-      {
-        "id": 26,
-        "name": "EurekAlert",
-        "author": null,
-        "title": "Faster accumulation of cardiovascular risk factors linked to increased dementia risk - EurekAlert",
-        "description": "Cardiovascular disease risk factors, like high blood pressure, diabetes, obesity and smoking, are believed to play key roles in the likelihood of developing cognitive decline, dementia, and Alzheimer’s disease. A new study suggests that people who accumulate …",
-        "image": "https://www.eurekalert.org/images/EurekAlert-bluebg_Twitter_601X601.png",
-        "content": "EMBARGOED FOR RELEASE UNTIL 4 P.M. ET, WEDNESDAY, APRIL 20, 2022\r\nMINNEAPOLIS – Cardiovascular disease risk factors, like high blood pressure, diabetes, obesity and smoking, are believed to play key … [+4962 chars]"
-      },
-      {
-        "id": 27,
-        "name": "Nature.com",
-        "author": null,
-        "title": "Four lessons from the pandemic to reboot the NIH - Nature.com",
-        "description": "From innovation to workforce diversity, scientists are eager for change at the world’s largest funder of biomedical research.",
-        "image": "https://media.nature.com/lw1024/magazine-assets/d41586-022-01101-7/d41586-022-01101-7_20326690.jpg",
-        "content": "Francis Collins retired as head of the NIH in December.Credit: Saul Loeb/Getty\r\nThe COVID-19 pandemic represented an important test for the US National Institutes of Health (NIH), the largest funder … [+11413 chars]"
-      },
-      {
-        "id": 28,
-        "name": "Greater Kashmir",
-        "author": "Syed Rizwan Geelani",
-        "title": "Flu among school children | Experts allay COVID fears - Greater Kashmir",
-        "description": null,
-        "image": "https://gumlet.assettype.com/greaterkashmir%2F2022-03%2F291d47e5-8146-429c-b2f5-d288a5df4879%2FSchools_reopen_in_the_valley_14.jpg?w=1200&auto=format%2Ccompress&ogImage=true",
-        "content": "Respiratory viruses like influenza and other viruses are mostly active in March and April. Every year students would fall ill in these two months and we call it seasonal flu, he said.\r\nNotably, a maj… [+463 chars]"
-      },
-      {
-        "id": 29,
-        "name": "Playcrazygame.com",
-        "author": "Jenni Smith",
-        "title": "Check out the operation of health care this Thursday (21/04) - Play Crazy Game",
-        "description": "The Prefecture of Fortaleza will keep two health posts in operation this Thursday (21/04), Holiday of Tiradentes, exclusively for routine vaccination. The Paulo Marcelo and Messejana stations will be open from 7:30 am to 4:30 pm. Health posts open for routine…",
-        "image": "https://www.fortaleza.ce.gov.br/images/images1/000Abril2022/00%2020%2004%202022%20Posto%20(37).jpg",
-        "content": "The Prefecture of Fortaleza will keep two health posts in operation this Thursday (21/04), Holiday of Tiradentes, exclusively for routine vaccination. The Paulo Marcelo and Messejana stations will be… [+1451 chars]"
-      },
-      {
-        "id": 30,
-        "name": "Thebeet.com",
-        "author": "adammeyer",
-        "title": "4 Facts Doctors Need You to Know About Taking Vitamin D - The Beet",
-        "description": "Here are four surprising facts about taking Vitamin D supplements that doctors want you to know, supported by research.",
-        "image": "https://townsquare.media/site/959/files/2022/04/attachment-GettyImages-1214381269.jpg?w=1200&h=0&zc=1&s=0&a=t&q=89",
-        "content": "Vitamin D has been all the rage lately, and it’s easy to see why. The sunshine vitamin delivers many health benefits, such as strengthening bones, elevating your mood, and bolstering the immune syste… [+5902 chars]"
-      },
-      {
-        "id": 31,
-        "name": "Hcplive.com",
-        "author": "Giuliana Grossi",
-        "title": "Maternal Autoimmune Disease Linked to Higher Risk of Mental Disorders in Offspring - MD Magazine",
-        "description": "Infants born to mothers with autoimmune disease had a 16% higher risk of being diagnosed with a mental disorder compared with those who were not prenatally exposed to maternal autoimmune diseases.",
-        "image": "https://cdn.sanity.io/images/0vv8moc6/hcplive/5f40d81cc57ec43da038081ffb10cf6508c7f531-510x510.jpg?fit=crop&auto=format",
-        "content": "The prevalence of autoimmune disease surpasses 5% and yields a high burden. Most autoimmune diseases are more common in women during their childbearing years. \r\nMaternal immune activation during preg… [+2997 chars]"
-      },
-      {
-        "id": 32,
-        "name": "Medscape",
-        "author": "Pam Harrison",
-        "title": "Cancer Survivors With Financial Woes Have Higher Risk of Dying - Medscape",
-        "description": "Cancer survivors who experience medical financial hardship have a higher mortality risk than survivors who do not, and most of these woes are related to having no insurance or not enough insurance.",
-        "image": "https://img.medscape.com/thumbnail_library/dt_220420_medical_bill_dollar_money_800x450.jpg",
-        "content": "Cancer survivors who experience medical financial hardship have a higher risk of dying than survivors who do not experience the same hardship, concludes a study involving a nationally representative … [+4455 chars]"
-      },
-      {
-        "id": 33,
-        "name": "India TV News",
-        "author": "Health Desk",
-        "title": "Signs and symptoms that indicate onset of Parkinson's disease and should NOT be overlooked - India TV News",
-        "description": "Parkinson’s disease is a nervous system disease that affects the person’s body movement and restricts them from performing routine activities. It varies from person to person and affects their well-being.",
-        "image": "https://resize.indiatvnews.com/en/resize/newbucket/715_-/2022/04/pjimage-83-1649923506.jpg",
-        "content": "Parkinsons disease is a neurological movement disorder. The disease starts slowly and worsens with time and is incurable. People start facing this problem because there is an area of the brain called… [+3132 chars]"
-      },
-      {
-        "id": 34,
-        "name": "WebMD",
-        "author": "https://www.facebook.com/WebMD",
-        "title": "Over Half of American Parents Give Their Picky Eaters Supplements - WebMD",
-        "description": "From a new poll, about one-third of parents said their child is a picky eater and one-third didn't think their children eat enough fruits and vegetables.",
-        "image": "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/reference_guide/tips_for_parenting_child_on_autism_spectrum_ref_guide/1800x1200_tips_for_parenting_child_on_autism_spectrum_ref_guide.jpg",
-        "content": "By Robert Preidt HealthDay ReporterHealthDay Reporter\r\nWEDNESDAY, April 20, 2022 (HealthDay News) -- If your child is a picky eater and you feel you need to give them dietary supplements, you're not … [+2498 chars]"
-      },
-      {
-        "id": 35,
-        "name": "Medscape",
-        "author": "Megan Brooks",
-        "title": "Parents' Cancer Can Have 'Devastating Effects' on Children - Medscape",
-        "description": "Children of patients with cancer experience a variety of physical, mental, and financial challenges, and need more support than the healthcare system currently provides.",
-        "image": "https://img.medscape.com/thumbnail_library/dt_220420_child_sad_headache_800x450.jpg",
-        "content": "When a parent develops cancer, children and adolescents are more likely to miss school, visit emergency departments, and experience negative mental health consequences, a new study shows.\r\n\"Everyone … [+3633 chars]"
-      },
-      {
-        "id": 36,
-        "name": "Verywellhealth.com",
-        "author": "https://www.facebook.com/verywell",
-        "title": "Paralysis: Symptoms, Causes, and Treatment - Verywell Health",
-        "description": "Paralysis is weakness of part of the body, and it usually signals serious damage to the brain, spinal cord, or nerves of the body.",
-        "image": "https://www.verywellhealth.com/thmb/uYXqowqQYr0_K4tdR0KeFDLss2s=/2384x1257/filters:fill(87E3EF,1)/GettyImages-1343266787-55e4e02494394d0399952fdb7fd648a3.jpg",
-        "content": "Paralysis describes complete or partial weakness of the body or part of the body. It can occur suddenly or gradually as a result of conditions that affect the brain, spinal cord, or nerves.\r\nIf you o… [+7358 chars]"
-      },
-      {
-        "id": 37,
-        "name": "Asianetnews.com",
-        "author": "Team Newsable",
-        "title": "Healthy tips to take care this summer for people with diabetes - Asianet Newsable ",
-        "description": "Extreme heat can dehydrate the body quickly in diabetic people. A balanced diet can cool it down effectively.",
-        "image": "https://static-ai.asianetnews.com/images/01g0gft0b00c8pfx0555nzjfcj/ss_1200x630xt.jpg",
-        "content": "Extreme heat can dehydrate the body quickly in diabetic people. A balanced diet can cool it down effectively. Here's an alert for people with diabetes, the scorching heat dehydrates more easily and q… [+3149 chars]"
-      },
-      {
-        "id": 38,
-        "name": "Devdiscourse",
-        "author": "ANI",
-        "title": "Study finds cellular exosomes could improve the delivery of anticancer drugs to tumours - Devdiscourse",
-        "description": "According to a new study, exosomes, or small bubbles that transport molecules from one cell to another, can be effective vehicles for delivering cancer treatments to tumours.",
-        "image": "https://www.devdiscourse.com/remote.axd?https://devdiscourse.blob.core.windows.net/devnews/20_04_2022_12_51_07_7909299.jpg?width=920&format=jpeg",
-        "content": "According to a new study, exosomes, or small bubbles that transport molecules from one cell to another, can be effective vehicles for delivering cancer treatments to tumours. The findings of the stud… [+712 chars]"
-      },
-      {
-        "id": 39,
-        "name": "AZoCleantech",
-        "author": null,
-        "title": "Study Shows Link Between Air Pollution and Lung Cancer Susceptibility - AZoCleantech",
-        "description": "According to a research article published recently in eLife, researchers have discovered a mechanism that enlightens how fine air pollution particles may lead to lung cancer.",
-        "image": "https://d3hnfqimznafg0.cloudfront.net/images/news/ImageForNews_31565_16504511789894494.png",
-        "content": "According to a research article published recently in eLife, researchers have discovered a mechanism that highlights how fine air pollution particles may lead to lung cancer. \r\nInhaled fine particula… [+4282 chars]"
-      },
-      {
-        "id": 40,
-        "name": "Daily Sabah",
-        "author": "Anadolu Agency",
-        "title": "Turkish Gastroenterology marks irritable bowel syndrome month | Daily Sabah - Daily Sabah",
-        "description": "Irritable bowel syndrome is a condition that affects around 10% of people around the world. So, when Turkish Gastroenterology Association made a statement...",
-        "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2022/04/20/thumbs/800x531/200450.jpg",
-        "content": "Irritable bowel syndrome is a condition that affects around 10% of people around the world. So, when Turkish Gastroenterology Association made a statement about the syndrome and its treatment as part… [+1852 chars]"
-      }
-    ]
-  }
+  "articles": [
+    {
+      "id": 6,
+      "name": "THE WEEK",
+      "author": "PTI",
+      "title": "Good HDL cholesterol may keep Alzheimer's away: study - The Week",
+      "description": "Having good cholesterol or high-density lipoprotein (HDL) in the body is essential to health as it may protect the brain and keep Alzheimer's disease at bay, according to a recent study. Researchers from University of Southern California's (USC) Keck School o…",
+      "image": "https://www.theweek.in/content/dam/week/news/2020/images/2022/2/10/HDL-Good-HDL-cholesterol-high-density-lipoprotein-LDL.jpg",
+      "content": "Having good cholesterol or high-density lipoprotein (HDL) in the body is essential to health as it may protect the brain and keep Alzheimer's disease at bay, according to a recent study.\r\nResearchers… [+2926 chars]"
+    },
+    {
+      "id": 6,
+      "name": "The Times of India",
+      "author": "TIMESOFINDIA.COM",
+      "title": "CDC confirms 4 Americans got Coronavirus from Mink; here is all you need to know about the first animal-to-human transmission of COVID virus - Times of India",
+      "description": "The US health agency recently revealed that a variant of COVID witnessed majorly in mink in 2020 had infected at least four Americans.",
+      "image": "https://static.toiimg.com/photo/90979239.cms",
+      "content": "COVID-19 causing coronavirus belongs to a large family of viruses called coronavirus. As per the information available on the website of the CDC, some coronaviruses cause cold-like illnesses in peopl… [+728 chars]"
+    },
+    {
+      "id": 7,
+      "name": "ANI News",
+      "author": null,
+      "title": "Genetic differences can affect ability to utilize energy of various nutrients: Report - ANI News",
+      "description": "Helsinki [Finland], April 21 (ANI): According to a new study by the University of Helsinki, minor genetic differences can affect the ability to utilize the energy of various nutrients.",
+      "image": "https://aniportalimages.s3.amazonaws.com/media/details/__sized__/GENEEEEEEEE2022042109041120220421102941-thumbnail-154x87-70.jpg",
+      "content": "ANI | Updated: Apr 21, 2022 15:59 IST\r\nHelsinki [Finland], April 21 (ANI): According to a new study by the University of Helsinki, minor genetic differences can affect the ability to utilize the ener… [+3713 chars]"
+    },
+    {
+      "id": 8,
+      "name": "India Education Diary",
+      "author": "iednewsdesk",
+      "title": "Johns Hopkins University: Mediterranean-Style Diet Further Linked to Reduced Risk of Preeclampsia in Pregnant Women of All Races - India Education Diary",
+      "description": "A new Johns Hopkins Medicine study that surveyed a racially diverse group of more than 8,000 women has added to evidence that following a Mediterranean-style diet could lower the risk of preeclampsia by at least 20%.Preeclampsia is a potentially leth",
+      "image": "https://indiaeducationdiary.in/wp-content/uploads/2021/05/Johns-Hopkins-University.jpg",
+      "content": "A new Johns Hopkins Medicine study that surveyed a racially diverse group of more than 8,000 women has added to evidence that following a Mediterranean-style diet could lower the risk of preeclampsia… [+4835 chars]"
+    },
+    {
+      "id": 9,
+      "name": "India Education Diary",
+      "author": "iednewsdesk",
+      "title": "Johns Hopkins University: Lab Grown, Self-Sustainable Muscle Cells Repair Muscle Injury and Disease, Mouse Study Shows - India Education Diary",
+      "description": "In proof-of-concept experiments, Johns Hopkins Medicine scientists say they have successfully cultivated human muscle stem cells capable of renewing themselves and repairing muscle tissue damage in mice, potentially advancing efforts to treat muscle",
+      "image": "https://indiaeducationdiary.in/wp-content/uploads/2021/05/Johns-Hopkins-University.jpg",
+      "content": "In proof-of-concept experiments, Johns Hopkins Medicine scientists say they have successfully cultivated human muscle stem cells capable of renewing themselves and repairing muscle tissue damage in m… [+4568 chars]"
+    },
+    {
+      "id": 10,
+      "name": "The Times of India",
+      "author": "Thank you for reading my article",
+      "title": "Did you have pneumonia during Covid infection? You may be at a great risk of dementia, says study - Economic Times",
+      "description": "Those with Covid pneumonia have higher risk of dementia than others.",
+      "image": "https://img.etimg.com/thumb/msid-90978178,width-1070,height-580,imgsize-1507897,overlay-etpanache/photo.jpg",
+      "content": "The long term impact of Covid is truly taking a new meaning. According to a recent study conducted by the University of Missouri (MU) researchers, patients who suffered from pneumonia during their Co… [+1679 chars]"
+    },
+    {
+      "id": 11,
+      "name": "The Times of India",
+      "author": "ET HealthWorld",
+      "title": "Bacteria in urine may signal aggressive prostate cancer: Study - ETHealthWorld",
+      "description": "Researchers in the UK have identified five types of bacteria in urine which may be linked to aggressive prostate cancer. The findings, published in the journal European Urology Oncology, could help pave the way for treatments that could target these particula…",
+      "image": "https://etimg.etb2bimg.com/thumb/msid-90976478,imgsize-63992,width-1200,height-628,overlay-ethealthworld/bacteria-in-urine-may-signal-aggressive-prostate-cancer-study.jpg",
+      "content": "London, Researchers in the UK have identified five types of bacteria in urine which may be linked to aggressive prostate cancer. The findings, published in the journal European Urology Oncology, coul… [+3001 chars]"
+    },
+    {
+      "id": 12,
+      "name": "Down To Earth Magazine",
+      "author": null,
+      "title": "Genetically modified mosquitoes for controlling vector-borne diseases? Successful trial gives hope - Down To Earth Magazine",
+      "description": "The findings were achieved after a decade of fight for public acceptance, regulatory approvals",
+      "image": "https://cdn.downtoearth.org.in/library/large/2022-04-21/0.27720900_1650526400_istock-1033519616.jpg",
+      "content": "The findings were achieved after a decade of fight for public acceptance, regulatory approvalsPreliminary results of an open-air study of genetically engineered mosquitoes — with an aim to suppress a… [+3671 chars]"
+    },
+    {
+      "id": 13,
+      "name": "The Irish Times",
+      "author": "Gina Kolata",
+      "title": "Study finds no benefit to restricting diet by time of the day - The Irish Times",
+      "description": "Research carried out in China included 139 people with obesity",
+      "image": "https://www.irishtimes.com/image-creator/?id=1.4858301&origw=1440",
+      "content": "The weight-loss idea is quite appealing: Limit your eating to a period of six to eight hours each day, during which you can have whatever you want.\r\nStudies in mice seemed to support so-called time-r… [+5057 chars]"
+    },
+    {
+      "id": 14,
+      "name": "The Weather Channel",
+      "author": null,
+      "title": "During Pregnancy, Inhaled Nanoparticles Can Enter the Placenta from Lungs, Cause Low Birth Weight in Babies: Study | The Weather Channel - Articles from The Weather Channel | weather.com - The Weather Channel",
+      "description": "Nanoparticles are particles between 1 and 100 nanometers wide and are found in thousands of common products such as sunscreens, pharmaceuticals and sports equipment. - Articles from The Weather Channel | weather.com",
+      "image": "https://s.w-x.co/in-fetus.jpg",
+      "content": "Inhaling harmful nanoparticles during pregnancy can cause them to escape the lungs and enter the placenta, resulting in babies with low birth weights, according to a study.\r\nNanoparticles are particl… [+2335 chars]"
+    },
+    {
+      "id": 15,
+      "name": "Zoom",
+      "author": "TN Digital",
+      "title": "Intermittent fasting is not for all, experts list health problems that could worsen on this diet - Times Now",
+      "description": "Intermittent fasting decreases glucose concentration and increases fatty acid oxidation which helps the body break down stored fats.",
+      "image": "https://static.tnn.in/thumb/msid-90974386,imgsize-100,width-1280,height-720,resizemode-75/90974386.jpg",
+      "content": "As COVID-19 cases rise in Delhi, here's what experts have to say on Omicron variant, opening of schools, vaccination and more"
+    },
+    {
+      "id": 16,
+      "name": "News18",
+      "author": "Lifestyle Desk",
+      "title": "Worried About Your Family’s Health Due to White Sugar? Here Are Some Amazing Healthy Alternatives - News18",
+      "description": "To help you make better diet choices and yet continue enjoying the same sweetness, here are 5 healthy substitutes to processed sugar that not only make your food tasty but also have their own health benefits.",
+      "image": "https://images.news18.com/ibnlive/uploads/2021/12/sugar-2-164088097016x9.jpg",
+      "content": "While sugary foods and sweets uplift our moods like nothing else, it isnt hidden from anyone that sugar is more harmful than beneficial. Excessive processed sugar consumption can cause chronic health… [+1943 chars]"
+    },
+    {
+      "id": 17,
+      "name": "Citytoday.news",
+      "author": "Murali",
+      "title": "Liver cancer is increasing because of unhealthy lifestyle – Mysuru Today - citytoday",
+      "description": "Prime News, National, Karnataka, Health, Disease, Mysuru, April 21:- Liver cancer is rising because of an unhealthy lifestyle, said Dr M S Vishveshwara, Chief Radiation Oncologist and Medical Superint",
+      "image": null,
+      "content": "Prime News, National, Karnataka, Health, Disease, Mysuru, April 21:- Liver cancer is rising because of an unhealthy lifestyle, said Dr M S Vishveshwara, Chief Radiation Oncologist and Medical Superin… [+2215 chars]"
+    },
+    {
+      "id": 18,
+      "name": "News-Medical.Net",
+      "author": null,
+      "title": "What Diseases Can You Get From Mosquitoes? - News-Medical.Net",
+      "description": "Mosquito-borne diseases are infectious diseases that are spread by the bite of infected mosquitoes carrying the pathogens.",
+      "image": "https://d2jx2rerrg6sh3.cloudfront.net/images/Article_Images/ImageForArticle_22408_16505192945721791.jpg",
+      "content": "IntroductionBackgroundProtective measuresDiseases by Mosquito TypeMalariaDengueYellow FeverZikaChikungunyaWest Nile VirusJapanese Encephalitis (JE)Lymphatic FilariasisReferencesFurther Reading\r\nMosqu… [+12385 chars]"
+    },
+    {
+      "id": 19,
+      "name": "The Indian Express",
+      "author": "AP",
+      "title": "Puzzling outbreak of liver disease in kids spreads to EU, US - The Indian Express",
+      "description": "British officials reported 74 cases of hepatitis, or liver inflammation, found in children since January.",
+      "image": "https://images.indianexpress.com/2022/04/world-hepatitis-day_1200_thinkstockphotos-482859418.jpg",
+      "content": "Health officials say they have detected more cases of a mysterious liver disease in children that was first identified in Britain, with new infections spreading to Europe and the U.S.Last week, Briti… [+2340 chars]"
+    },
+    {
+      "id": 20,
+      "name": "News-Medical.Net",
+      "author": null,
+      "title": "Researchers test an experimental treatment for metastatic cancer - News-Medical.Net",
+      "description": "Researchers at the University of Oklahoma are testing an experimental treatment for metastatic cancer focusing on pancreatic cancer.",
+      "image": "https://d2jx2rerrg6sh3.cloudfront.net/image-handler/picture/2014/7/174318220-620x480.jpg",
+      "content": "Researchers at the University of Oklahoma are testing an experimental treatment for metastatic cancer focusing on pancreatic cancer. Metastasis, the condition when cancer cells spread beyond the orig… [+3107 chars]"
+    },
+    {
+      "id": 21,
+      "name": "News-Medical.Net",
+      "author": null,
+      "title": "Revolutionary mRNA vaccine technology: History, facts and the future - News-Medical.Net",
+      "description": "mRNA vaccine technology is a field full of promise – as well as unanswered questions – for communities living with the burden of the world’s most deadly infectious diseases.",
+      "image": "https://d2jx2rerrg6sh3.cloudfront.net/image-handler/picture/2014/7/Malaria_3-620x480.jpg",
+      "content": "mRNA vaccine technology is a field full of promise – as well as unanswered questions – for communities living with the burden of the world’s most deadly infectious diseases.\r\nDespite appearances, mRN… [+7815 chars]"
+    },
+    {
+      "id": 22,
+      "name": "BBC Focus Magazine",
+      "author": "Victoria Woollaston",
+      "title": "“Microbiome friendly” beauty products: Do they work? - BBC Science Focus Magazine",
+      "description": "More and more hygiene products are claiming to be ‘microbiome friendly’ but how important is our skin microbiome, and can an out-of-whack bacterial community lead to conditions like eczema and dry skin?",
+      "image": "https://images.immediate.co.uk/production/volatile/sites/4/2022/04/Skin-microbiome-products-326e8ad.jpg",
+      "content": "At the moment were born, each of us is seeded with trillions of bacteria cells that live and thrive on our skin. These cells form whats known as our skin microbiome. The exact makeup of each persons … [+7887 chars]"
+    },
+    {
+      "id": 23,
+      "name": "Livemint",
+      "author": "Livemint",
+      "title": "More Impactful Omicron Sublineages: Virologist Explains 3 Ways Covid Variant Is Evolving | Mint - Mint",
+      "description": "Noting that Omicron emerged as three distinct lineages BA.1, BA.2 and BA.3, he said that despite the head start of BA.1, we've seen BA.2 overtake BA.1 across the world over the course of January to April.",
+      "image": "https://images.livemint.com/img/2022/04/21/600x338/coronavirus_1608178200730_1608178208280_1650507833493.PNG",
+      "content": "With too many Omicron sub-variants circulating at the moment, eminent virologist Trevor Bedford pointed out we are likely to see more impactful sublineages of the variant in the recent future. He fur… [+2338 chars]"
+    },
+    {
+      "id": 24,
+      "name": "Asianetnews.com",
+      "author": "Team Newsable",
+      "title": "Breakfast that can control your 'blood sugar' levels: protein to fibre-rich fruits and more - Asianet Newsable ",
+      "description": "Here are some healthy breakfast options that can control your blood sugar levels; read on",
+      "image": "https://static-ai.asianetnews.com/images/01fsnvn31yd12wmpa8rdvbemr1/omicron-affecting-diabetic-patient--4-_1200x630xt.jpg",
+      "content": "Here are some healthy breakfast options that can control your blood sugar levels; read on\r\nMany experts recommend including all food categories in breakfast to effectively regulate sugar levels, incl… [+2148 chars]"
+    },
+    {
+      "id": 25,
+      "name": "News-Medical.Net",
+      "author": null,
+      "title": "Antibody response to Pfizer-BioNTech COVID-19 vaccine over 6 months - News-Medical.Net",
+      "description": "A new study published in PLoS ONE characterizes the antibody response to BNT162b2, the Pfizer-BioNTech COVID-19 vaccine",
+      "image": "https://d2jx2rerrg6sh3.cloudfront.net/images/news/ImageForNews_711280_16504680350696189.jpg",
+      "content": "The binding responses and temporal dynamics of antibodies elicited against the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) due to vaccination must be fully understood to design futur… [+5626 chars]"
+    },
+    {
+      "id": 26,
+      "name": "EurekAlert",
+      "author": null,
+      "title": "Faster accumulation of cardiovascular risk factors linked to increased dementia risk - EurekAlert",
+      "description": "Cardiovascular disease risk factors, like high blood pressure, diabetes, obesity and smoking, are believed to play key roles in the likelihood of developing cognitive decline, dementia, and Alzheimer’s disease. A new study suggests that people who accumulate …",
+      "image": "https://www.eurekalert.org/images/EurekAlert-bluebg_Twitter_601X601.png",
+      "content": "EMBARGOED FOR RELEASE UNTIL 4 P.M. ET, WEDNESDAY, APRIL 20, 2022\r\nMINNEAPOLIS – Cardiovascular disease risk factors, like high blood pressure, diabetes, obesity and smoking, are believed to play key … [+4962 chars]"
+    },
+    {
+      "id": 27,
+      "name": "Nature.com",
+      "author": null,
+      "title": "Four lessons from the pandemic to reboot the NIH - Nature.com",
+      "description": "From innovation to workforce diversity, scientists are eager for change at the world’s largest funder of biomedical research.",
+      "image": "https://media.nature.com/lw1024/magazine-assets/d41586-022-01101-7/d41586-022-01101-7_20326690.jpg",
+      "content": "Francis Collins retired as head of the NIH in December.Credit: Saul Loeb/Getty\r\nThe COVID-19 pandemic represented an important test for the US National Institutes of Health (NIH), the largest funder … [+11413 chars]"
+    },
+    {
+      "id": 28,
+      "name": "Greater Kashmir",
+      "author": "Syed Rizwan Geelani",
+      "title": "Flu among school children | Experts allay COVID fears - Greater Kashmir",
+      "description": null,
+      "image": "https://gumlet.assettype.com/greaterkashmir%2F2022-03%2F291d47e5-8146-429c-b2f5-d288a5df4879%2FSchools_reopen_in_the_valley_14.jpg?w=1200&auto=format%2Ccompress&ogImage=true",
+      "content": "Respiratory viruses like influenza and other viruses are mostly active in March and April. Every year students would fall ill in these two months and we call it seasonal flu, he said.\r\nNotably, a maj… [+463 chars]"
+    },
+    {
+      "id": 29,
+      "name": "Playcrazygame.com",
+      "author": "Jenni Smith",
+      "title": "Check out the operation of health care this Thursday (21/04) - Play Crazy Game",
+      "description": "The Prefecture of Fortaleza will keep two health posts in operation this Thursday (21/04), Holiday of Tiradentes, exclusively for routine vaccination. The Paulo Marcelo and Messejana stations will be open from 7:30 am to 4:30 pm. Health posts open for routine…",
+      "image": "https://www.fortaleza.ce.gov.br/images/images1/000Abril2022/00%2020%2004%202022%20Posto%20(37).jpg",
+      "content": "The Prefecture of Fortaleza will keep two health posts in operation this Thursday (21/04), Holiday of Tiradentes, exclusively for routine vaccination. The Paulo Marcelo and Messejana stations will be… [+1451 chars]"
+    },
+    {
+      "id": 30,
+      "name": "Thebeet.com",
+      "author": "adammeyer",
+      "title": "4 Facts Doctors Need You to Know About Taking Vitamin D - The Beet",
+      "description": "Here are four surprising facts about taking Vitamin D supplements that doctors want you to know, supported by research.",
+      "image": "https://townsquare.media/site/959/files/2022/04/attachment-GettyImages-1214381269.jpg?w=1200&h=0&zc=1&s=0&a=t&q=89",
+      "content": "Vitamin D has been all the rage lately, and it’s easy to see why. The sunshine vitamin delivers many health benefits, such as strengthening bones, elevating your mood, and bolstering the immune syste… [+5902 chars]"
+    },
+    {
+      "id": 31,
+      "name": "Hcplive.com",
+      "author": "Giuliana Grossi",
+      "title": "Maternal Autoimmune Disease Linked to Higher Risk of Mental Disorders in Offspring - MD Magazine",
+      "description": "Infants born to mothers with autoimmune disease had a 16% higher risk of being diagnosed with a mental disorder compared with those who were not prenatally exposed to maternal autoimmune diseases.",
+      "image": "https://cdn.sanity.io/images/0vv8moc6/hcplive/5f40d81cc57ec43da038081ffb10cf6508c7f531-510x510.jpg?fit=crop&auto=format",
+      "content": "The prevalence of autoimmune disease surpasses 5% and yields a high burden. Most autoimmune diseases are more common in women during their childbearing years. \r\nMaternal immune activation during preg… [+2997 chars]"
+    },
+    {
+      "id": 32,
+      "name": "Medscape",
+      "author": "Pam Harrison",
+      "title": "Cancer Survivors With Financial Woes Have Higher Risk of Dying - Medscape",
+      "description": "Cancer survivors who experience medical financial hardship have a higher mortality risk than survivors who do not, and most of these woes are related to having no insurance or not enough insurance.",
+      "image": "https://img.medscape.com/thumbnail_library/dt_220420_medical_bill_dollar_money_800x450.jpg",
+      "content": "Cancer survivors who experience medical financial hardship have a higher risk of dying than survivors who do not experience the same hardship, concludes a study involving a nationally representative … [+4455 chars]"
+    },
+    {
+      "id": 33,
+      "name": "India TV News",
+      "author": "Health Desk",
+      "title": "Signs and symptoms that indicate onset of Parkinson's disease and should NOT be overlooked - India TV News",
+      "description": "Parkinson’s disease is a nervous system disease that affects the person’s body movement and restricts them from performing routine activities. It varies from person to person and affects their well-being.",
+      "image": "https://resize.indiatvnews.com/en/resize/newbucket/715_-/2022/04/pjimage-83-1649923506.jpg",
+      "content": "Parkinsons disease is a neurological movement disorder. The disease starts slowly and worsens with time and is incurable. People start facing this problem because there is an area of the brain called… [+3132 chars]"
+    },
+    {
+      "id": 34,
+      "name": "WebMD",
+      "author": "https://www.facebook.com/WebMD",
+      "title": "Over Half of American Parents Give Their Picky Eaters Supplements - WebMD",
+      "description": "From a new poll, about one-third of parents said their child is a picky eater and one-third didn't think their children eat enough fruits and vegetables.",
+      "image": "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/reference_guide/tips_for_parenting_child_on_autism_spectrum_ref_guide/1800x1200_tips_for_parenting_child_on_autism_spectrum_ref_guide.jpg",
+      "content": "By Robert Preidt HealthDay ReporterHealthDay Reporter\r\nWEDNESDAY, April 20, 2022 (HealthDay News) -- If your child is a picky eater and you feel you need to give them dietary supplements, you're not … [+2498 chars]"
+    },
+    {
+      "id": 35,
+      "name": "Medscape",
+      "author": "Megan Brooks",
+      "title": "Parents' Cancer Can Have 'Devastating Effects' on Children - Medscape",
+      "description": "Children of patients with cancer experience a variety of physical, mental, and financial challenges, and need more support than the healthcare system currently provides.",
+      "image": "https://img.medscape.com/thumbnail_library/dt_220420_child_sad_headache_800x450.jpg",
+      "content": "When a parent develops cancer, children and adolescents are more likely to miss school, visit emergency departments, and experience negative mental health consequences, a new study shows.\r\n\"Everyone … [+3633 chars]"
+    },
+    {
+      "id": 36,
+      "name": "Verywellhealth.com",
+      "author": "https://www.facebook.com/verywell",
+      "title": "Paralysis: Symptoms, Causes, and Treatment - Verywell Health",
+      "description": "Paralysis is weakness of part of the body, and it usually signals serious damage to the brain, spinal cord, or nerves of the body.",
+      "image": "https://www.verywellhealth.com/thmb/uYXqowqQYr0_K4tdR0KeFDLss2s=/2384x1257/filters:fill(87E3EF,1)/GettyImages-1343266787-55e4e02494394d0399952fdb7fd648a3.jpg",
+      "content": "Paralysis describes complete or partial weakness of the body or part of the body. It can occur suddenly or gradually as a result of conditions that affect the brain, spinal cord, or nerves.\r\nIf you o… [+7358 chars]"
+    },
+    {
+      "id": 37,
+      "name": "Asianetnews.com",
+      "author": "Team Newsable",
+      "title": "Healthy tips to take care this summer for people with diabetes - Asianet Newsable ",
+      "description": "Extreme heat can dehydrate the body quickly in diabetic people. A balanced diet can cool it down effectively.",
+      "image": "https://static-ai.asianetnews.com/images/01g0gft0b00c8pfx0555nzjfcj/ss_1200x630xt.jpg",
+      "content": "Extreme heat can dehydrate the body quickly in diabetic people. A balanced diet can cool it down effectively. Here's an alert for people with diabetes, the scorching heat dehydrates more easily and q… [+3149 chars]"
+    },
+    {
+      "id": 38,
+      "name": "Devdiscourse",
+      "author": "ANI",
+      "title": "Study finds cellular exosomes could improve the delivery of anticancer drugs to tumours - Devdiscourse",
+      "description": "According to a new study, exosomes, or small bubbles that transport molecules from one cell to another, can be effective vehicles for delivering cancer treatments to tumours.",
+      "image": "https://www.devdiscourse.com/remote.axd?https://devdiscourse.blob.core.windows.net/devnews/20_04_2022_12_51_07_7909299.jpg?width=920&format=jpeg",
+      "content": "According to a new study, exosomes, or small bubbles that transport molecules from one cell to another, can be effective vehicles for delivering cancer treatments to tumours. The findings of the stud… [+712 chars]"
+    },
+    {
+      "id": 39,
+      "name": "AZoCleantech",
+      "author": null,
+      "title": "Study Shows Link Between Air Pollution and Lung Cancer Susceptibility - AZoCleantech",
+      "description": "According to a research article published recently in eLife, researchers have discovered a mechanism that enlightens how fine air pollution particles may lead to lung cancer.",
+      "image": "https://d3hnfqimznafg0.cloudfront.net/images/news/ImageForNews_31565_16504511789894494.png",
+      "content": "According to a research article published recently in eLife, researchers have discovered a mechanism that highlights how fine air pollution particles may lead to lung cancer. \r\nInhaled fine particula… [+4282 chars]"
+    },
+    {
+      "id": 40,
+      "name": "Daily Sabah",
+      "author": "Anadolu Agency",
+      "title": "Turkish Gastroenterology marks irritable bowel syndrome month | Daily Sabah - Daily Sabah",
+      "description": "Irritable bowel syndrome is a condition that affects around 10% of people around the world. So, when Turkish Gastroenterology Association made a statement...",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2022/04/20/thumbs/800x531/200450.jpg",
+      "content": "Irritable bowel syndrome is a condition that affects around 10% of people around the world. So, when Turkish Gastroenterology Association made a statement about the syndrome and its treatment as part… [+1852 chars]"
+    },
+    {
+      "id": 41
+    },
+    {
+      "id": 42
+    }
+  ]
+}

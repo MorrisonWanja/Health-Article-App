@@ -12,9 +12,30 @@ function AddArticle(){
  
   function handleSubmit(e){
     e.preventDefault();
-    console.log("name",name)
+    const article = {
+      name:name,
+      title:title,
+      description:description,
+      content:content,
+      author:author
+    }
+    fetch("http://localhost:3000/articles", {
+      method:"POST",
+      headers: {
+        "Content-Type":"application.json"
+      },
+      body:JSON.stringify(article),
+    })
+   
+    .then((res) => res.json())
+    .then((articles) => {
+      console.log(articles)
+    })
+
 
   }
+
+  
 
 
 
