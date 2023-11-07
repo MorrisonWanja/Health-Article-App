@@ -41,3 +41,7 @@
     text-decoration: none;
     width:100%;
 }
+h1{
+    border-radius: 8px;
+    padding: 20px 10px;
+}
