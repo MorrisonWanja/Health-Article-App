@@ -1,23 +1,25 @@
-import React from "react"
-import {NavLink} from "react-router-dom"
+import React from 'react'
+import { Route} from 'react-router'
 
-function Navbar () {
+function NavBar() {
 
-    const LinkStyles = {
-        color:"green",
-        textAlign:"centre",
-        fontWeight:"bold",
-        fontsize:"26px",
-        padding:"15px",
-        marginleft:"12px", 
-    }
+  const linkStyles = {
+    textAlign: "center",
+    marginLeft:"10px",
+    textDecoration: "none",
+    color: "black",
+    fontWeight: "bold",
+    fontSize: "30px",
+    padding: "10px 20px",
+  }
 
-    return (
-        <nav>
-            <NavLink to="/" style={linkStyles}>Home</NavLink>
-            <NavLink to="/articlelist" style={linkStyles} >Articles</NavLink>
-            <NavLink to="/comments" style={linkStyles} >Comments</NavLink>
-        </nav>
-    )
+  return (
+    <nav>
+      <NavLink to="/" style={linkStyles}>Home</NavLink>
+      <NavLink to="/articlelist" style={linkStyles} >Articles</NavLink>
+      <NavLink to="/comments" style={linkStyles} >Comments</NavLink>
+
+    </nav>
+  )
 }
-export default Navbar;
+export default NavBar

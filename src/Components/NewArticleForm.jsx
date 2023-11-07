@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 //function to collect data through a form and add it to our DB
 function NewArticleForm(){
