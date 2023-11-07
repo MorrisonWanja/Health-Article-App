@@ -14,7 +14,9 @@ function Navbar () {
 
     return (
         <nav>
+            <NavLink to="/" style={linkStyles}>Home</NavLink>
             <NavLink to="/articlelist" style={linkStyles} >Articles</NavLink>
+            <NavLink to="/comments" style={linkStyles} >Comments</NavLink>
         </nav>
     )
 }
