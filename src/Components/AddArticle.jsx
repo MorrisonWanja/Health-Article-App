@@ -1,10 +1,26 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
+import "./../App.css"
+import "./Style.css";
 
 function AddArticle(){
+    const [name, setName] = useState("")
+    const [title, setTitle] = useState("")
+    const [description, setDescription] = useState("")
+    const [content, setContent] = useState("")
+    const [author, setAuthor] = useState("")
+
+ 
+  function handleSubmit(e){
+    e.preventDefault();
+    console.log("name",name)
+
+  }
+
+
 
     return(
         <>
-        <form >
+        <form className="new-article" onSubmit={handleSubmit}>
         <input type="text" placeholder="Name of your article" />
         <input type="text" placeholder="Title" />
          <img src="" alt="AddImage link here" />
