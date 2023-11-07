@@ -11,4 +11,10 @@ function Navbar () {
         padding:"15px",
         marginleft:"12px", 
     }
+
+    return (
+        <nav>
+            <NavLink to="/articlelist" style={linkStyles} >Articles</NavLink>
+        </nav>
+    )
 }
