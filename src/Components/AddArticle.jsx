@@ -59,7 +59,7 @@ function AddArticle(){
          value={description}
          onChange={(e) => setDescription(e.target.value)}
          autoComplete="off" required/>
-         <input type="text" name="content" placeholder="Content"
+         <textarea type="text"className="content-input-area" rows="13" name="content" placeholder="Content"
          value={content}
          onChange={(e) => setContent(e.target.value)} autoComplete="off" required />
          <input type="text" name="author" placeholder="Author" 
