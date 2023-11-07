@@ -1,13 +1,31 @@
 *{
     background: blueviolet;
 }
+.add-new-article{
+    background: greenyellow;
+    height: 700px;
+    padding: 20px 10px;
+}
 .new-article{
     display: flex;
     flex-direction: column;
     width: 500px;
-    background-color: rgb(150, 6, 6);
     border-radius: 8px;
 }
 .new-article input{
     height:40px;
+    background: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+    margin-bottom: 3px;
+}
+.new-article textarea{
+    background: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+    width:100%;
 }
