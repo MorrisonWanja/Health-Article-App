@@ -13,7 +13,7 @@ function ArticleList() {
     useEffect(() =>{
         fetchedArticles()
     },[])
-    
+
     function addArticles (newArticles) {
         setArticles ([...articles, newArticles]) 
       }
@@ -28,6 +28,28 @@ function ArticleList() {
           setArticles(updatedArticles)
         })
        }
-    
+    function updateAuthor(id){
+  fetch(`http://localhost:3000/articles/${id}`,{
+    method: "PATCH",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      author: "Thank you for reading my article"
+    })
+  })
+  .then(resp => resp.json())
+  .then(updatedArticle =>{
+    const updatedArticles = articles.map((article)=>{
+      if(article.id === updatedArticle.id) return updatedArticle
+      return article
+    })
+    setArticles(updatedArticles)
+  })
+ }
+
+ const arts= articles.map((article,index) =>
+ <ArticleItem key={index} name={article.name} title={article.title} image={article.image} description={article.description} content={article.content} id={article.id} author={article.author} deleteArticle={deleteArticle} updateAuthor={updateAuthor}/>
+   )
 }
   
