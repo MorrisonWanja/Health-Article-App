@@ -48,23 +48,23 @@ function AddArticle(){
         <form className="new-article" onSubmit={handleSubmit} autoComplete="off">
         <input type="text" name="name" placeholder="Name of your article" 
         value={name}
-        onChange={(e) => setName(e.target.value)} autoComplete="off"/>
+        onChange={(e) => setName(e.target.value)} autoComplete="off" required/>
         <input type="text" name="title" placeholder="Title" 
         value={title}
-        onChange={(e) => setTitle(e.target.value)} autoComplete="off"/>
+        onChange={(e) => setTitle(e.target.value)} autoComplete="off" required/>
          <input name="image" placeholder="AddImage link here" 
          value={image}
-         onChange={(e) => setImage(e.target.value)} autoComplete="off"/>
+         onChange={(e) => setImage(e.target.value)} autoComplete="off" required/>
          <input type="text" name="description" placeholder="Description" 
          value={description}
          onChange={(e) => setDescription(e.target.value)}
-         autoComplete="off"/>
+         autoComplete="off" required/>
          <input type="text" name="content" placeholder="Content"
          value={content}
-         onChange={(e) => setContent(e.target.value)} autoComplete="off" />
+         onChange={(e) => setContent(e.target.value)} autoComplete="off" required />
          <input type="text" name="author" placeholder="Author" 
          value={author}
-         onChange={(e) => setAuthor(e.target.value)} autoComplete="off" />
+         onChange={(e) => setAuthor(e.target.value)} autoComplete="off" required />
          <input type="submit" value="Add Article" />
         </form>
         <p>Welcome to my section</p>
