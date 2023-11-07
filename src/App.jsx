@@ -1,15 +1,14 @@
+import React from 'react'
+import './App.css'
+//import Route from  "reat-router-dom"
+import ArticleList from './Components/ArticleList'
 
-import React, {useEffect, useState} from "react";
-import "./App.css"
-import AddArticle from "./Components/AddArticle";
-
-
-function App(){
+function App () {
     return (
-        <>
-        <AddArticle />
-        </>
-    )
+        <div>
+        <Articlelist/>
+        
+        </div>
+    );
 }
-
 export default App;
