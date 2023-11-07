@@ -42,10 +42,19 @@ function AddArticle(){
     return(
         <>
         <form className="new-article" onSubmit={handleSubmit}>
-        <input type="text" placeholder="Name of your article" />
-        <input type="text" placeholder="Title" />
-         <img src="" alt="AddImage link here" />
-         <input type="text" placeholder="Description" />
+        <input type="text" name="name" placeholder="Name of your article" 
+        value={name}
+        onChange={(e) => setName(e.target.value)}/>
+        <input type="text" name="title" placeholder="Title" 
+        value={title}
+        onChange={(e) => setTitle(e.target.value)}/>
+         <img src="" name="image" alt="AddImage link here" 
+         value={image}
+         onChange={(e) => setImage(e.target.value)}/>
+         <input type="text" name="description" placeholder="Description" 
+         value={description}
+         onChange={(e) => setDescription(e.target.value)}
+         />
          <input type="text" placeholder="Content" />
          <input type="text" placeholder="Author" />
          <input type="submit" value="Add Article" />
