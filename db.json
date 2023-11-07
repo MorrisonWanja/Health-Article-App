@@ -19,15 +19,6 @@
       "content": "COVID-19 causing coronavirus belongs to a large family of viruses called coronavirus. As per the information available on the website of the CDC, some coronaviruses cause cold-like illnesses in peopl… [+728 chars]"
     },
     {
-      "id": 7,
-      "name": "ANI News",
-      "author": null,
-      "title": "Genetic differences can affect ability to utilize energy of various nutrients: Report - ANI News",
-      "description": "Helsinki [Finland], April 21 (ANI): According to a new study by the University of Helsinki, minor genetic differences can affect the ability to utilize the energy of various nutrients.",
-      "image": "https://aniportalimages.s3.amazonaws.com/media/details/__sized__/GENEEEEEEEE2022042109041120220421102941-thumbnail-154x87-70.jpg",
-      "content": "ANI | Updated: Apr 21, 2022 15:59 IST\r\nHelsinki [Finland], April 21 (ANI): According to a new study by the University of Helsinki, minor genetic differences can affect the ability to utilize the ener… [+3713 chars]"
-    },
-    {
       "id": 8,
       "name": "India Education Diary",
       "author": "iednewsdesk",
@@ -323,6 +314,24 @@
       "description": "Irritable bowel syndrome is a condition that affects around 10% of people around the world. So, when Turkish Gastroenterology Association made a statement...",
       "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2022/04/20/thumbs/800x531/200450.jpg",
       "content": "Irritable bowel syndrome is a condition that affects around 10% of people around the world. So, when Turkish Gastroenterology Association made a statement about the syndrome and its treatment as part… [+1852 chars]"
+    },
+    {
+      "name": "",
+      "author": "",
+      "title": "",
+      "description": "",
+      "image": "",
+      "content": "",
+      "id": 41
+    },
+    {
+      "name": "",
+      "author": "",
+      "title": "",
+      "description": "",
+      "image": "",
+      "content": "",
+      "id": 42
     }
   ]
 }
