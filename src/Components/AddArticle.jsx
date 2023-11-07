@@ -16,22 +16,23 @@ function AddArticle(){
     const article = {
       name:name,
       title:title,
+      image:image,
       description:description,
       content:content,
-      author:author
-    }
+      author:author,
+    };
+    console.log(article)
     fetch("http://localhost:3000/articles", {
       method:"POST",
       headers: {
-        "Content-Type":"application.json"
+        "Content-Type":"application/json"
       },
       body:JSON.stringify(article),
     })
    
     .then((res) => res.json())
-    .then((articles) => {
-      console.log(articles)
-    })
+    .then((articles) =>  console.log(articles)
+    )
 
 
   }
