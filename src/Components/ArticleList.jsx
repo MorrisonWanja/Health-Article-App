@@ -10,5 +10,13 @@ function ArticleList() {
     .then(r => r.json())
     .then(articles => setArticles(articles))
     }
+    useEffect(() =>{
+        fetchedArticles()
+    },[])
+    function addArticles (newArticles) {
+        setArticles ([...articles, newArticles]) 
+      }
+     
+    
 }
   
