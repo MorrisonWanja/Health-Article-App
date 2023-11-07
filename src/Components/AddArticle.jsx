@@ -67,8 +67,9 @@ function AddArticle(){
          value={author}
          onChange={(e) => setAuthor(e.target.value)} autoComplete="off" required />
          <input type="submit" value="Add Article" />
+         <p>Thank you for your contribution</p>
         </form>
-        <p>Welcome to my section</p>
+        
         </div>
         </>
     )
