@@ -39,14 +39,10 @@ function AddArticle(){
 
   }
 
-  
-
-
-
     return(
         <>
         <div className="add-new-article">
-        <h1>Welcome to Our Article App. 
+        <h1>Thank you for visiting Our Article App. 
           You can contribute to our research body by submitting your 
           articel using the form below.</h1>
         <form className="new-article" onSubmit={handleSubmit} autoComplete="off">
