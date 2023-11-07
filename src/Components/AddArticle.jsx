@@ -13,6 +13,9 @@ function AddArticle(){
  
   function handleSubmit(e){
     e.preventDefault();
+    if(name<1, title<1, image<1, description<1,content<1,author<1){
+      alert("You cannot submit an empty article. Please ensure that you populate all the fields")
+    }
     const article = {
       name:name,
       title:title,
@@ -21,7 +24,6 @@ function AddArticle(){
       content:content,
       author:author,
     };
-    console.log(article)
     fetch("http://localhost:3000/articles", {
       method:"POST",
       headers: {
