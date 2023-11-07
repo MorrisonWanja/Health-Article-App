@@ -20,3 +20,4 @@ function Navbar () {
         </nav>
     )
 }
+export default NavBar
