@@ -1,6 +1,6 @@
 import React , {useState, useEffect}from 'react';
-//import ArticleItem from ;
-//import NewArticleForm from ;
+import AddArticle from './AddArticle';
+import NewArticleForm from './Components/NewArticleForm'; 
 
 function ArticleList() {
   const [articles, setArticles] =useState([])
