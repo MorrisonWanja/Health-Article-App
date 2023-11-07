@@ -13,10 +13,21 @@ function ArticleList() {
     useEffect(() =>{
         fetchedArticles()
     },[])
+    
     function addArticles (newArticles) {
         setArticles ([...articles, newArticles]) 
       }
-     
+
+      function deleteArticle(id){
+        fetch(`http://localhost:3000/articles/${id}`,{
+          method: "DELETE",
+        })
+        .then(resp => resp.json())
+        .then(() =>{
+          const updatedArticles= articles.filter((article)=> article.id !== id)
+          setArticles(updatedArticles)
+        })
+       }
     
 }
   
