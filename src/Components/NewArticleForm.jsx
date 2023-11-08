@@ -1,44 +1,51 @@
-import React, { useState, useEffect } from "react";
+import React, {useState} from 'react';
 
-//function to collect data through a form and add it to our DB
-function NewArticleForm(){
-    const [formData, setFormData] = useState({
-        name:"",
-        author:"",
-        title:"",
-        description:"",
-        image:"",
-        content:"",
-    });
 
-    function handleChange(event){
-        setFormData({
-            ...formData,
-            [event.target.id]: event.target.value,
-        })
+function NewArticleForm({addArticles}) {
+    const [formData, setFormData] =  useState({
+        name: "", 
+        author: "",
+        title: "",
+        description: "",
+        image: "",
+        content: "",    
+    })
+    function handleOnChange(event) {
+      setFormData({
+        ...formData,
+        [event.target.name]: event.target.value,
+      })
     }
-    return (
-        <form onSubmit={handleSubmit}>
-            <input type="text" id="name" value={formData.name} onChange={handleChange} placeholder="name"/>
-            <input type="text" id="author" value={formData.author} onChange={handleChange} placeholder="author"/>
-            <input type="text" id="title" value={formData.title} onChange={handleChange} placeholder="title"/>
-            <input type="text" id="description" value={formData.description} onChange={handleChange} placeholder="description"/>
-            <input type="text" id="image" value={formData.image} onChange={handleChange} placeholder="image"/>
-            <input type="text" id="content" value={formData.content} onChange={handleChange} placeholder="content"/>
-        </form>
-    )
-    
-    function handleSubmit(event){
-        event.preventDefault();
-        fetch("http://localhost:3000/articles",{
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-            },
-        });
+
+    function handleSubmit(event) {
+      event.preventDefault()
+      const post = {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body:JSON.stringify(formData),
+      }
+      fetch("http://localhost:3000/articles",post)
+      .then(response => response.json())
+      .then(data => addArticles(data))
+      .catch (error => console.log (error))
     }
-    
+    let e = 400
+    console.log (e)
+
+  return (
+
+    <form onSubmit={handleSubmit} className="article-form" >
+        <input onChange={handleOnChange} type= "text" name = "name" value ={formData.name} placeholder = "name"/>
+        <input onChange={handleOnChange} type = "text" name = "author" value = {formData.author} placeholder = "author"/>
+        <input onChange={handleOnChange} type = "text" name = "title"value = {formData.title} placeholder = "title"/>
+        <input onChange={handleOnChange} type = "text" name = "description" value = {formData.description} placeholder = "description"/>
+        <input onChange={handleOnChange} type = "text" name = "image" value = {formData.image} placeholder = "image"/>
+        <input onChange={handleOnChange} type = "text" name = "content"value = {formData.content} placeholder = "content"/>
+        <button type= "submit" > add Article </button>
+    </form>
+  )
 }
-
 
 export default NewArticleForm;

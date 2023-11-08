@@ -6,29 +6,29 @@ function ArticleList() {
   const [articles, setArticles] =useState([])
   
   const fetchedArticles = ()=>{
-    fetch("http://localhost:3000/articles")
-    .then(r => r.json())
-    .then(articles => setArticles(articles))
-    }
-    useEffect(() =>{
-        fetchedArticles()
-    },[])
+  fetch("http://localhost:3000/articles")
+  .then(r => r.json())
+  .then(articles => setArticles(articles))
+  }
+useEffect(() =>{
+  fetchedArticles()
+ },[])
 
-    function addArticles (newArticles) {
-        setArticles ([...articles, newArticles]) 
-      }
+ function addArticles (newArticles) {
+   setArticles ([...articles, newArticles]) 
+ }
 
-      function deleteArticle(id){
-        fetch(`http://localhost:3000/articles/${id}`,{
-          method: "DELETE",
-        })
-        .then(resp => resp.json())
-        .then(() =>{
-          const updatedArticles= articles.filter((article)=> article.id !== id)
-          setArticles(updatedArticles)
-        })
-       }
-    function updateAuthor(id){
+ function deleteArticle(id){
+  fetch(`http://localhost:3000/articles/${id}`,{
+    method: "DELETE",
+  })
+  .then(resp => resp.json())
+  .then(() =>{
+    const updatedArticles= articles.filter((article)=> article.id !== id)
+    setArticles(updatedArticles)
+  })
+ }
+ function updateAuthor(id){
   fetch(`http://localhost:3000/articles/${id}`,{
     method: "PATCH",
     headers: {
@@ -48,10 +48,10 @@ function ArticleList() {
   })
  }
 
- const arts= articles.map((article,index) =>
- <ArticleItem key={index} name={article.name} title={article.title} image={article.image} description={article.description} content={article.content} id={article.id} author={article.author} deleteArticle={deleteArticle} updateAuthor={updateAuthor}/>
-   )
-   return (
+  const arts= articles.map((article,index) =>
+<ArticleItem key={index} name={article.name} title={article.title} image={article.image} description={article.description} content={article.content} id={article.id} author={article.author} deleteArticle={deleteArticle} updateAuthor={updateAuthor}/>
+  )
+  return (
     <div className="art" >
       <NewArticleForm  addArticles= {addArticles}/>
       <div>
