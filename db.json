@@ -2,15 +2,6 @@
   "articles": [
     {
       "id": 6,
-      "name": "",
-      "author": "",
-      "title": "",
-      "description": "",
-      "image": "",
-      "content": ""
-    },
-    {
-      "id": 6,
       "name": "The Times of India",
       "author": "TIMESOFINDIA.COM",
       "title": "CDC confirms 4 Americans got Coronavirus from Mink; here is all you need to know about the first animal-to-human transmission of COVID virus - Times of India",
@@ -26,51 +17,6 @@
       "description": "Helsinki [Finland], April 21 (ANI): According to a new study by the University of Helsinki, minor genetic differences can affect the ability to utilize the energy of various nutrients.",
       "image": "https://aniportalimages.s3.amazonaws.com/media/details/__sized__/GENEEEEEEEE2022042109041120220421102941-thumbnail-154x87-70.jpg",
       "content": "ANI | Updated: Apr 21, 2022 15:59 IST\r\nHelsinki [Finland], April 21 (ANI): According to a new study by the University of Helsinki, minor genetic differences can affect the ability to utilize the ener… [+3713 chars]"
-    },
-    {
-      "id": 8,
-      "name": "",
-      "author": "",
-      "title": "",
-      "description": "",
-      "image": "",
-      "content": ""
-    },
-    {
-      "id": 10,
-      "name": "",
-      "author": "",
-      "title": "",
-      "description": "",
-      "image": "",
-      "content": ""
-    },
-    {
-      "id": 11,
-      "name": "",
-      "author": "",
-      "title": "",
-      "description": "",
-      "image": "",
-      "content": ""
-    },
-    {
-      "id": 12,
-      "name": "Wwwwwwyyyy",
-      "author": "sgsefvse",
-      "title": "gfdss",
-      "description": "fwewrfjwpfjegjwpgjqw",
-      "image": "wegwe",
-      "content": "ffsefew"
-    },
-    {
-      "id": 13,
-      "name": "",
-      "author": "",
-      "title": "",
-      "description": "",
-      "image": "",
-      "content": ""
     },
     {
       "id": 14,
@@ -314,24 +260,6 @@
       "description": "Irritable bowel syndrome is a condition that affects around 10% of people around the world. So, when Turkish Gastroenterology Association made a statement...",
       "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2022/04/20/thumbs/800x531/200450.jpg",
       "content": "Irritable bowel syndrome is a condition that affects around 10% of people around the world. So, when Turkish Gastroenterology Association made a statement about the syndrome and its treatment as part… [+1852 chars]"
-    },
-    {
-      "name": "",
-      "author": "",
-      "title": "",
-      "description": "",
-      "image": "",
-      "content": "",
-      "id": 41
-    },
-    {
-      "name": "",
-      "author": "Thank you for reading my article",
-      "title": "",
-      "description": "",
-      "image": "",
-      "content": "",
-      "id": 42
     }
   ]
 }
