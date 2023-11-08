@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 
-function ArticleItem({name, id, title, description , content, image, author, deleteArticle, updateAuthor}) {
+function ArticleItem({name, id, title, description , content, image, author, deleteArticle, onUpdateArticle}) {
   const[newName,setName] = useState("");
   const[newImage,setImage] = useState("");
   const[newTitle,setTitle] = useState("");
@@ -8,6 +8,30 @@ function ArticleItem({name, id, title, description , content, image, author, del
   const[newContent,setContent] = useState("");
   const[newAuthor,setAuthor] = useState("");
 
+  
+  function handleUpdatedArticles(e){
+        e.preventDefault();
+        let newArticle = {
+          name:newName,
+          image:newImage,
+          title:newTitle,
+          description:newDescription,
+          content:newContent,
+          author:newAuthor
+        }
+
+
+  fetch(`http://localhost:3000/articles/${id}`,{
+            method:"PATCH",
+            headers:{
+                "Content-Type": "application/json"
+            },
+            body:JSON.stringify(newArticle)
+        })
+        .then((r) => r.json())
+        .then((updatedArticle) => onUpdateArticle(updatedArticle))
+
+      }
   
   return (
    <div>
@@ -43,7 +67,7 @@ function ArticleItem({name, id, title, description , content, image, author, del
         value={newAuthor} 
         onChange={(e) => setAuthor(e.target.value)}
          />
-         <button onClick={()=>updateAuthor(id)} >Update Article</button>
+         <button onClick={handleUpdatedArticles} >Update Article</button>
       </form>
       
       <button onClick={()=> deleteArticle(id)} className="btn" >Delete</button>
