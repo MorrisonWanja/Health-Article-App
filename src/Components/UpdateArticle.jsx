@@ -1,7 +1,7 @@
 
 import React,{useState} from "react";
 
-function UpdaeArticle(updateAuthor){
+function UpdaeArticle(updateAuthor,id){
     const[newName,setName] = useState("");
     const[newImage,setImage] = useState("");
     const[newTitle,setTitle] = useState("");
