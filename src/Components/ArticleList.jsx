@@ -31,34 +31,29 @@ useEffect(() =>{
  }
  
 
- function updateAuthor(id){
-  fetch(`http://localhost:3000/articles/${id}`,{
-    method: "PATCH",
-    headers: {
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify({
-      author: "Thank you for reading my article"
-    })
-  })
-  .then(resp => resp.json())
-  .then(updatedArticle =>{
-    const updatedArticles = articles.map((article)=>{
-      if(article.id === updatedArticle.id) return updatedArticle
-      return article
-    })
-    setArticles(updatedArticles)
-  })
+ function handleUpdate(updatedArticle){
+
+ const updatedArticles = articles.map((article) => {
+    if(article.id === updatedArticle.id){
+      return updatedArticle;
+    }
+  else {
+    return article;
+  }
+  
+  });
+  setArticles(updatedArticles)
+
  }
 
-  
+
   return (
     <div className="art" >
       <NewArticleForm  addArticles= {addArticles}/>
       <div>
         <div className="arts" >
         {articles.map((art,index) =>(
-          <ArticleItem key={index} name={art.name} image={art.image} title ={art.title} description={art.description} content={art.content} id={art.id} author={art.author} deleteArticle={deleteArticle} updateAuthor={updateAuthor}  />
+          <ArticleItem key={index} name={art.name} image={art.image} title ={art.title} description={art.description} content={art.content} id={art.id} author={art.author} deleteArticle={deleteArticle} onUpdateArticle={handleUpdate}  />
         ))}
         
         

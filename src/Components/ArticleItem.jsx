@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 
 function ArticleItem({name, id, title, description , content, image, author, deleteArticle, updateAuthor}) {
   const[newName,setName] = useState("");
@@ -17,7 +17,8 @@ function ArticleItem({name, id, title, description , content, image, author, del
       <h3>{title}</h3>
       <p>{description}</p>
       <p>{content}</p>
-      <form onSubmit={handleUpdate}>
+      <p>{author}</p>
+      <form >
         <input type="text" placeholder="New name"  
         value={newName} 
         onChange={(e) => setName(e.target.value)}
