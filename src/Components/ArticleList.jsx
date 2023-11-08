@@ -28,6 +28,20 @@ useEffect(() =>{
     setArticles(updatedArticles)
   })
  }
+// function comment(id) {
+//     fetch('http://localhost:3000/articles/${id}',{
+//         method: "POST",
+//         headers: {
+//             'Content-Type': 'application/json'
+//         },
+//         body: JSON.stringify(commentData),
+        
+//     })
+//     .then ((res) => res.json())
+//     .then((newComment) => {
+
+//     })
+// }
  
 
  function updateAuthor(id){
@@ -59,9 +73,7 @@ useEffect(() =>{
       <div>
         <div className="arts" >
         {arts}
-        <div>
-        <button onClick={handleButtonClick}>comments</button>
-        </div>
+        
         </div>
       </div>
          
