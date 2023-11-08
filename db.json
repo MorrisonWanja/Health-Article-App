@@ -18,7 +18,7 @@
       "image": "https://static.toiimg.com/photo/90979239.cms",
       "content": "COVID-19 causing coronavirus belongs to a large family of viruses called coronavirus. As per the information available on the website of the CDC, some coronaviruses cause cold-like illnesses in peopl… [+728 chars]"
     },
-{
+    {
       "id": 7,
       "name": "ANI News",
       "author": null,
@@ -314,6 +314,24 @@
       "description": "Irritable bowel syndrome is a condition that affects around 10% of people around the world. So, when Turkish Gastroenterology Association made a statement...",
       "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2022/04/20/thumbs/800x531/200450.jpg",
       "content": "Irritable bowel syndrome is a condition that affects around 10% of people around the world. So, when Turkish Gastroenterology Association made a statement about the syndrome and its treatment as part… [+1852 chars]"
-        }
+    },
+    {
+      "name": "",
+      "author": "",
+      "title": "",
+      "description": "",
+      "image": "",
+      "content": "",
+      "id": 41
+    },
+    {
+      "name": "",
+      "author": "",
+      "title": "",
+      "description": "",
+      "image": "",
+      "content": "",
+      "id": 42
+    }
   ]
 }
