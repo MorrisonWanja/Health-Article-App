@@ -15,7 +15,7 @@ function NavBar() {
         <nav>
             <Link to="/" style={linkStyles}>Home</Link>
             <Link to="/articlelist" style={linkStyles} >Articles</Link>
-            <Link to="/comments" style={linkStyles} >Comments</Link>
+            
             {/* Add other links here using the Link component */}
         </nav>
     );
