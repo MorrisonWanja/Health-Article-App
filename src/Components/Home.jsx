@@ -1,5 +1,5 @@
 import React from 'react'
-
+import UpdaeArticle from './UpdateArticle'
 
 
 function Home() {
