@@ -1,4 +1,5 @@
 import React from 'react'
+import UpdaeArticle from './UpdateArticle'
 
 function ArticleItem({name, id, title, description , content, image, author, deleteArticle, updateAuthor}) {
  
@@ -13,6 +14,7 @@ function ArticleItem({name, id, title, description , content, image, author, del
       <p>{content}</p>
       <h2 onClick={()=>updateAuthor(id)} >{author}</h2>
       <button onClick={()=> deleteArticle(id)} className="btn" >Delete</button>
+      <UpdaeArticle />
     </div>
    </div>
   )

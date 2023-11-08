@@ -1,7 +1,7 @@
 
 import React,{useState} from "react";
 
-function UpdaeArticle(){
+function UpdaeArticle(updateAuthor){
     const[newName,setName] = useState("");
     const[newImage,setImage] = useState("");
     const[newTitle,setTitle] = useState("");
@@ -9,10 +9,46 @@ function UpdaeArticle(){
     const[newContent,setContent] = useState("");
     const[newAuthor,setAuthor] = useState("");
 
+
+    function handleUpdate(e){
+        e.preventDefault();
+        let newArticle = {
+          name:newName,
+          image:newImage,
+          title:newTitle,
+          description:newDescription,
+          content:newContent,
+          author:newAuthor
+        }
+        fetch(`http://localhost:3000/articles/${id}`,{
+            method:"PATCH",
+            headers:{
+                "Content-Type": "application/json"
+            },
+            body:JSON.stringify(newArticle)
+        })
+        .then(res => res.json())
+        .then(updatedArtice => {
+          let updateArticles = articles.map(art => {
+            if(article.id === id){
+                art.name = newName,
+                art.image =newImage,
+                art.title = newTitle,
+                art.description = newDescription,
+                art.content = newContent,
+                art.author = newAuthor
+            }
+            return art
+          })
+            
+        })
+      }
+      
+
     return(
     <div id="modal">
-      <h1>Welcome Home</h1>
-      <form >
+      <div>
+      <form onSubmit={handleUpdate}>
         <input type="text" placeholder="New name"  
         value={newName} 
         onChange={(e) => setName(e.target.value)}
@@ -37,10 +73,9 @@ function UpdaeArticle(){
         value={newAuthor} 
         onChange={(e) => setAuthor(e.target.value)}
          />
-         <input type="submit" placeholder="New name"  
-        value="Update Article"
-         />
+         <button>Update Article</button>
       </form>
+      </div>
     </div>
 
     )
