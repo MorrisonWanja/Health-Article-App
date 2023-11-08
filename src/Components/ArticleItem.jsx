@@ -12,12 +12,12 @@ function ArticleItem({
   deleteArticle,
   onUpdateArticle,
 }) {
-  const [newName, setName] = useState('');
-  const [newImage, setImage] = useState('');
-  const [newTitle, setTitle] = useState('');
-  const [newDescription, setDescription] = useState('');
-  const [newContent, setContent] = useState('');
-  const [newAuthor, setAuthor] = useState('');
+  const [newName, setName] = useState(name);
+  const [newImage, setImage] = useState(image);
+  const [newTitle, setTitle] = useState(title);
+  const [newDescription, setDescription] = useState(description);
+  const [newContent, setContent] = useState(content);
+  const [newAuthor, setAuthor] = useState(author);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   function handleUpdatedArticles(e) {
