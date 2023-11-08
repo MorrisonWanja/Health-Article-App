@@ -59,9 +59,7 @@ useEffect(() =>{
       <div>
         <div className="arts" >
         {arts}
-        <div>
-        <button onClick={handleButtonClick}>comments</button>
-        </div>
+        
         </div>
       </div>
          
