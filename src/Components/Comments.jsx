@@ -29,7 +29,7 @@ function Comments() {
   return (
     <div className="comments">
     <form onSubmit={handleSubmit}>
-      <textarea type="text"
+      <input type="text"
        placeholder='leave a comment here...'
        value={comments} 
        onChange={handleChange} 
@@ -43,7 +43,7 @@ function Comments() {
   }
     <br></br>
     <div>
-    <h3>Comments</h3>
+  
     {submissions}
     </div>
     </div>
