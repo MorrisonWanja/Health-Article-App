@@ -1,5 +1,5 @@
-import React,{useState} from 'react'
-
+import React from "react"
+//import { Route } from "react-router"
 function Comments() {
   const[comments,setComments]=useState("")
   const[submittedComments,setSubmittedComments]=useState([])
@@ -47,6 +47,6 @@ function Comments() {
     {submissions}
     </div>
     </div>
-  )
+  );
 }
-export default Comments
+export default Comments;
