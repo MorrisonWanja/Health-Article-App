@@ -1,9 +1,16 @@
-import React from "react"
-//import { Route } from "react-router"
+import React,{useState, useEffect} from 'react'
+
 function Comments() {
   const[comments,setComments]=useState("")
   const[submittedComments,setSubmittedComments]=useState([])
   const[errors,setErrors]=useState([])
+useEffect (() =>{
+  fetch('http://localhost:8000/comments')
+  .then(res => res.json())
+  .then(comment => console.log(comment))
+
+
+},[])
 
   function handleChange(event){
     setComments(event.target.value)
@@ -29,7 +36,7 @@ function Comments() {
   return (
     <div className="comments">
     <form onSubmit={handleSubmit}>
-      <textarea type="text"
+      <input type="text"
        placeholder='leave a comment here...'
        value={comments} 
        onChange={handleChange} 
@@ -43,7 +50,7 @@ function Comments() {
   }
     <br></br>
     <div>
-    <h3>Comments</h3>
+  
     {submissions}
     </div>
     </div>

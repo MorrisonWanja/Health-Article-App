@@ -1,5 +1,63 @@
-.arts{
+home{
+  text-align: center;
+  margin-bottom: 300px;
+}
+.home-div{
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+nav{
+  display:flex;
+  height: 70px;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: darkgoldenrod;
+}
+.home-head{
+  font-size: 50px;
+}
+.home-par{
+  font-size: 1.5rem;
+}
+.article-form{
+  border: 2px solid;
+  height: 70px;
+  padding: 25px;
+  background-color: rgb(17, 44, 17);
+}
+input{
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+button{
+  background-color: darkgoldenrod;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.article{
+  align-items: center;
+  border: 1px solid;
+  width: 350px;
+  height: 850px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 15px;
+  word-wrap: break-word;
+  background-color: white;
+}
+.image{
+  width: 55%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.arts{
+  display: -webkit-inline-flex;
   flex-wrap: wrap;
   margin-top: 10px;
   margin-left: auto;
@@ -7,31 +65,34 @@
   width: 90%; 
  
 }
-
-.comments{
-  display: grid;                  /* Use grid layout */
-  grid-template-columns: repeat(3, 1fr); /* Create a 3-column grid; adjust as needed */
-  grid-gap: 10px;                 /* Space between grid items */
-  background-color: lightgoldenrodyellow;   /* Replace 'your-color' with the desired background color */
-  padding: 20px;                  /* Add padding for spacing */
+.btn{
+  background-color: darkgoldenrod;
+  margin-right: 100px;
+  margin-bottom: 5px;
   
+}
+.comments{
+  text-align: center;
+  padding: 50px;
 }
 textarea{
   padding: 20px;
   width: 50%;
   height: 50px;
-  border: 1px solid;
+  border: 2px solid;
 }
 .butn{
-  background-color: goldenrod;
+  background-color: green;
   color: white;
-  padding: 10px;
+  padding: 5px;
   border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s;
+  width: 40%;
 }
-.butn :hover{
-  background-color: #bdbfc1;
+.title{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
 }
-
