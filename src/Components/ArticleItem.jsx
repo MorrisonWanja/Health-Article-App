@@ -71,7 +71,7 @@ function ArticleItem({
             <span className="close" onClick={closeModal}>
               &times;
             </span>
-            <form>
+            <form id="updateItem">
               <input
                 type="text"
                 placeholder="New name"
