@@ -74,5 +74,4 @@ useEffect(() =>{
   );
 
 }
-export default ArticleList
-  
+export default ArticleList;
