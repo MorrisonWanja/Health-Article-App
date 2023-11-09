@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 import Comments from './Comments'
 
 
-function ArticleItem({articles,
+function ArticleItem({
   name,
   id,
   title,
@@ -45,14 +45,9 @@ function ArticleItem({articles,
     })
       .then((r) => r.json())
       .then((updatedArticle) => {
-        onUpdateArticle(...articles, updatedArticle);
+        onUpdateArticle(updatedArticle);
         closeModal();
-        setName("")
-        setImage("")
-        setTitle("")
-        setDescription("")
-        setContent("")
-        setAuthor("")
+        
 
       });
   }
