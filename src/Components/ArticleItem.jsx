@@ -78,8 +78,7 @@ function ArticleItem({
         <hr className="divider"></hr>
       <div id ='edit-btn'>
 
-      <div id ='edit-btn'>margin-left: 20px;
-      margin-top: 20px;
+      <div id ='edit-btn'>
       
 
       <button className= 'btn' onClick={openModal}>Edit</button>
@@ -143,10 +142,11 @@ function ArticleItem({
       <Comments/>
       <hr className="divider"></hr>
       </div>
+      </div>
       
     </div>
     </div>
   );
 
-}
+      }
 export default ArticleItem;
