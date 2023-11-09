@@ -1,6 +1,11 @@
 import React, { useState } from 'react';
 import './Style.css';
 
+import { Link } from 'react-router-dom'
+//import CommentForm from './Comments'
+import Comments from './Comments'
+
+
 function ArticleItem({
   name,
   id,
@@ -52,7 +57,6 @@ function ArticleItem({
   function closeModal() {
     setIsModalOpen(false);
   }
-
 
   return (
     <div>
@@ -118,6 +122,7 @@ function ArticleItem({
       <button onClick={() => deleteArticle(id)} className="btn">
         Delete
       </button>
+      <Comments/>
     </div>
     </div>
   );
