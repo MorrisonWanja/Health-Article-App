@@ -84,3 +84,53 @@ h1{
 #updateItem input{
     width:100%;
 }
+.articles-list{
+    background:blueviolet;
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    width:100%;
+}
+.article{
+    width: 100%;
+    height:auto;
+    display: flex;
+}
+.article img{
+    margin-left: 5px;
+   width: 600px;    
+   height:500px;
+   border-radius: 10px;
+   font-size: 30px;
+   text-align: center;
+   color: green;
+}
+.article h1,h2,p{
+    margin-top: 0;
+    margin-left: 40px;
+}
+.title-image{
+    padding: 40px 5px;
+}
+.article h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    font-weight: 900;
+}
+.article h2{
+    margin-top: 5px;
+    font-size: 35px;
+    font-weight: 400;
+}
+.article p{
+    font-size: 20px;
+    font-weight: 200;
+}
+h4{
+    margin-top: 0;
+    margin-left: 0;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}

@@ -4,14 +4,7 @@ function Comments() {
   const[comments,setComments]=useState("")
   const[submittedComments,setSubmittedComments]=useState([])
   const[errors,setErrors]=useState([])
-useEffect (() =>{
-  fetch('http://localhost:8000/comments')
-  .then(res => res.json())
-  .then(comment => console.log(comment))
-
-
-},[])
-
+  
   function handleChange(event){
     setComments(event.target.value)
 
@@ -35,24 +28,31 @@ useEffect (() =>{
   })
   return (
     <div className="comments">
+    <h4>Comments </h4>
+    <div className="form-comments-sections">
+    <div className="form-section"> 
     <form onSubmit={handleSubmit}>
       <input type="text"
        placeholder='leave a comment here...'
        value={comments} 
        onChange={handleChange} 
        /> <br></br>
-      <button type="submit" className="butn" >submit</button>
+      <button type="submit" className="butn" >Submit</button>
     </form>
+    </div>
+    <div className="display-comments">
+    <div>
+  
+    {submissions}
+    </div>
+    </div>
+    </div>
     {errors.length>0?errors.map((error,index)=>(
       <p key={index}>{error}</p>
 
     )):null
   }
-    <br></br>
-    <div>
-  
-    {submissions}
-    </div>
+    
     </div>
   );
 }
