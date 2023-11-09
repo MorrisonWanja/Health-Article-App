@@ -1,6 +1,7 @@
 import React,{useState,useEffect} from "react";
 import "./../App.css"
 import "./Style.css";
+import health from "../Images/image.jpg"
 
 function AddArticle(){
     const [name, setName] = useState("")
@@ -41,7 +42,12 @@ function AddArticle(){
 
     return(
         
+        
         <div className="add-new-article">
+          <div className='health'>
+      <h1>Green Health Articles</h1>
+      <img src={health} alt="alternate-text"/>
+      </div>
         <h1>Thank you for visiting Our Article App. 
           You can contribute to our research body by submitting your 
           articel using the form below.</h1>
@@ -59,15 +65,15 @@ function AddArticle(){
          value={description}
          onChange={(e) => setDescription(e.target.value)}
          autoComplete="off" required/>
-         <textarea type="text"className="content-input-area" rows="13" name="content" placeholder="Content"
+         <input type="text"className="content-input-area" rows="13" name="content" placeholder="Content"
          value={content}
          onChange={(e) => setContent(e.target.value)} autoComplete="off" required />
          <input type="text" name="author" placeholder="Author" 
          value={author}
          onChange={(e) => setAuthor(e.target.value)} autoComplete="off" required />
          <input type="submit" value="Add Article" />
-         <p>Thank you for your contribution</p>
         </form>
+        <p>Thank you for your contribution</p>
         
         </div>
         

@@ -18,6 +18,8 @@ nav{
 }
 .home-head{
   font-size: 50px;
+  text-align: center;
+  color: green;
 }
 .home-par{
   font-size: 1.5rem;
@@ -95,4 +97,29 @@ textarea{
   align-items: center;
   justify-content: center;
   background-color: rgb(255, 255, 255);
+}
+.health{
+  text-align: center;
+  margin-bottom: 1px;
+  color: green;
+}
+.image{
+  text-align: center;
+}
+.btn{
+
+background-color: darkgreen;
+margin-left: 50px;
+margin-top: 20px;
+width: 80px;
+}
+.btns{
+  background-color: red;
+  margin-right: 20px;
+margin-top: 10px;
+width: 90px;
+}
+.articles-list{
+  font-size: small;
+  
 }

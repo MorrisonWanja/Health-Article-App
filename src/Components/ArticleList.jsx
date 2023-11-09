@@ -1,5 +1,6 @@
 import React , {useState, useEffect}from 'react';
 import ArticleItem from './ArticleItem';
+import health from "../Images/image.jpg"
 
 import { comment } from 'postcss';
 
@@ -59,6 +60,10 @@ useEffect(() =>{
   )
   return (
     <div className="art" >
+      <div className='health'>
+      <h1>Green Health Articles</h1>
+      <img src={health} alt="alternate-text"/>
+      </div>
      
       <div>
         <div className="arts" >
