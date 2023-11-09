@@ -1,7 +1,6 @@
 import React , {useState, useEffect}from 'react';
 import ArticleItem from './ArticleItem';
-import NewArticleForm from './NewArticleForm';
-//import Comments from './Comments';
+
 import { comment } from 'postcss';
 
 
@@ -33,40 +32,7 @@ useEffect(() =>{
   })
  }
 
-// function commentArticle(Id){
-  
-//       fetch(`http://localhost:3000/articles/${Id}`, {
-//         method: 'POST',
-//         headers: {
-//           'Content-Type': 'application/json',
-//         },
-//         body: JSON.stringify(commentData),
-//       })
-//         .then((response) => {
-//           if (response.ok) {
-//             return response.json();
-//           } else {
-//             throw new Error('Failed to add comment');
-//           }
-//         })
-//         .then((data) => {
-//           setMessage('Comment added successfully');
-//           // You can update the UI as needed here
-//         })
-//         .catch((error) => {
-//           setMessage('Error: ' + error.message);
-//         });
-//     };
-//  function Addcomment(id) {
-//     etch(`http://localhost:3000/articles/${id}`,{
-//     method: "POST",
-//  })
-//  .then(resp => resp.json())
- 
-//     .then(data => Addcomment(data))
-//     .catch (error => console.log (error))
-//   }
- 
+
 
  function updateAuthor(id){
   fetch(`http://localhost:3000/articles/${id}`,{
@@ -93,7 +59,7 @@ useEffect(() =>{
   )
   return (
     <div className="art" >
-      <NewArticleForm  addArticles= {addArticles}/>
+     
       <div>
         <div className="arts" >
         {arts}
