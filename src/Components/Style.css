@@ -4,16 +4,19 @@
     font-weight: 300;
     font-family: 'Times New Roman', Times, serif;
 }
+
 .add-new-article{
-    background: white;
+    background: whitesmoke;
     height: 1200px;
     padding: 40px 200px;
 }
 .new-article{
     display: flex;
     flex-direction: column;
+    background:white;
     width: 100%;
     border-radius: 8px;
+    padding: 12px 25px;
 }
 .new-article input{
     width: 100%;
@@ -26,21 +29,38 @@
     margin-bottom: 3px;
 }
 .new-article textarea{
-    background: black;
     width: 100%;
+    height:40px;
+    background: lightgrey;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     color:white;
     text-decoration: none;
+    margin-bottom: 3px;
+    border-radius: 7px;
+    padding: 12px 0;
     
 }
-.new-article p{
+.add-new-article p{
+    margin-top: 20px;
     background: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     color:white;
     text-decoration: none;
     width:100%;
+    border-radius: 7px;
+    text-align: center;
+    height: 40px;
+    font-size: 35px;
+}
+.submit-button:hover{
+    background: green;
+    cursor: pointer;
+
+}
+.add-new-article p:hover{
+    background: rgb(0, 19, 128);
 }
 h1{
     border-radius: 8px;
@@ -83,4 +103,63 @@ h1{
 }
 #updateItem input{
     width:100%;
+}
+.articles-list{
+    background:rgb(205, 192, 218);
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    width:100%;
+}
+.article{
+    width: 100%;
+    height:auto;
+    display: flex;
+    
+}
+.article img{
+    margin-left: 10px;
+   width: 600px;    
+   height:500px;
+   position:relative;
+   border-radius: 10px;
+   font-size: 30px;
+   text-align: center;
+   color: green;
+   transform: 3s;
+}
+.article img:hover{
+    transform: scale(1.09);
+}
+.article h1,h2,p{
+    margin-top: 0;
+    margin-left: 40px;
+}
+.title-image{
+    padding: 40px 5px;
+}
+.article h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    font-weight: 900;
+}
+.article h1:hover{
+    color:Red;
+}
+.article h2{
+    margin-top: 5px;
+    font-size: 35px;
+    font-weight: 400;
+}
+.article p{
+    font-size: 20px;
+    font-weight: 200;
+}
+h4{
+    margin-top: 0;
+    margin-left: 0;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 5px;
 }

@@ -44,7 +44,7 @@ function AddArticle(){
         
         
         <div className="add-new-article">
-          <div className='health'>
+      <div className='health'>
       <h1>Green Health Articles</h1>
       <img src={health} alt="alternate-text"/>
       </div>
@@ -52,7 +52,7 @@ function AddArticle(){
           You can contribute to our research body by submitting your 
           articel using the form below.</h1>
         <form className="new-article" onSubmit={handleSubmit} autoComplete="off">
-        <input type="text" name="name" placeholder="Name of your article" 
+        <input type="text"name="name" placeholder="Name of your article" 
         value={name}
         onChange={(e) => setName(e.target.value)} autoComplete="off" required/>
         <input type="text" name="title" placeholder="Title" 
@@ -64,14 +64,14 @@ function AddArticle(){
          <input type="text" name="description" placeholder="Description" 
          value={description}
          onChange={(e) => setDescription(e.target.value)}
-         autoComplete="off" required/>
-         <input type="text"className="content-input-area" rows="13" name="content" placeholder="Content"
+         autoComplete="off" required />
+         <input type="text"className="content-input-area"  name="content" placeholder="Content"
          value={content}
          onChange={(e) => setContent(e.target.value)} autoComplete="off" required />
          <input type="text" name="author" placeholder="Author" 
          value={author}
          onChange={(e) => setAuthor(e.target.value)} autoComplete="off" required />
-         <input type="submit" value="Add Article" />
+         <input className="submit-button"type="submit" value="Add Article" />
         </form>
         <p>Thank you for your contribution</p>
         

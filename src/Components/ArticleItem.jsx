@@ -47,6 +47,8 @@ function ArticleItem({
       .then((updatedArticle) => {
         onUpdateArticle(updatedArticle);
         closeModal();
+        
+
       });
   }
 
@@ -61,16 +63,31 @@ function ArticleItem({
   return (
     <div className='articles-list'>
       <div className="article">
+        <div className="title-image">
+        <img src={image} alt="Image Loading..." className="image"  />
+        </div>
+        <div className="remaining-content">
         <h1>{name}</h1>
-        <img src={image} alt="" className="image" />
         <h2>{title}</h2>
         <p>{description}</p>
         <p>{content}</p>
+        <hr className="divider"></hr>
+        <p>Author/s</p>
         <p>{author}</p>
+
+        <hr className="divider"></hr>
+      <div id ='edit-btn'>
+
       <div id ='edit-btn'>margin-left: 20px;
       margin-top: 20px;
       
+
       <button className= 'btn' onClick={openModal}>Edit</button>
+      <button onClick={() => deleteArticle(id)} className="btns">
+        Delete
+      </button>
+      <hr className="divider"></hr>
+      </div>
 
       {isModalOpen && (
         <div id="modal" className="modal">
@@ -118,14 +135,15 @@ function ArticleItem({
               <button onClick={handleUpdatedArticles}>Update Article</button>
             </form>
           </div>
+      
         </div>
       )}
 
-      <button onClick={() => deleteArticle(id)} className="btns">
-        Delete
-      </button>
-      </div>
+      
       <Comments/>
+      <hr className="divider"></hr>
+      </div>
+      
     </div>
     </div>
   );
