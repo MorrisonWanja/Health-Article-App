@@ -74,8 +74,14 @@ function ArticleItem({
         <hr className="divider"></hr>
         <p>Author/s</p>
         <p>{author}</p>
+
         <hr className="divider"></hr>
       <div id ='edit-btn'>
+
+      <div id ='edit-btn'>margin-left: 20px;
+      margin-top: 20px;
+      
+
       <button className= 'btn' onClick={openModal}>Edit</button>
       <button onClick={() => deleteArticle(id)} className="btns">
         Delete
