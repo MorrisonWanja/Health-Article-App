@@ -15,7 +15,7 @@ function NavBar() {
         <nav>
             <Link to="/" style={linkStyles}>Home</Link>
             <Link to="/articlelist" style={linkStyles} >Articles</Link>
-            <Link to="/addarticle" style={linkStyles} >New Article</Link>
+            <Link to="/addarticle" style={linkStyles} >Add Article</Link>
             
             {/* Add other links here using the Link component */}
         </nav>

@@ -1,9 +1,16 @@
-import React,{useState} from 'react'
+import React,{useState, useEffect} from 'react'
 
 function Comments() {
   const[comments,setComments]=useState("")
   const[submittedComments,setSubmittedComments]=useState([])
   const[errors,setErrors]=useState([])
+useEffect (() =>{
+  fetch('http://localhost:8000/comments')
+  .then(res => res.json())
+  .then(comment => console.log(comment))
+
+
+},[])
 
   function handleChange(event){
     setComments(event.target.value)
