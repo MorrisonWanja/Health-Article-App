@@ -32,7 +32,42 @@ useEffect(() =>{
     setArticles(updatedArticles)
   })
  }
+
+// function commentArticle(Id){
+  
+//       fetch(`http://localhost:3000/articles/${Id}`, {
+//         method: 'POST',
+//         headers: {
+//           'Content-Type': 'application/json',
+//         },
+//         body: JSON.stringify(commentData),
+//       })
+//         .then((response) => {
+//           if (response.ok) {
+//             return response.json();
+//           } else {
+//             throw new Error('Failed to add comment');
+//           }
+//         })
+//         .then((data) => {
+//           setMessage('Comment added successfully');
+//           // You can update the UI as needed here
+//         })
+//         .catch((error) => {
+//           setMessage('Error: ' + error.message);
+//         });
+//     };
+//  function Addcomment(id) {
+//     etch(`http://localhost:3000/articles/${id}`,{
+//     method: "POST",
+//  })
+//  .then(resp => resp.json())
  
+//     .then(data => Addcomment(data))
+//     .catch (error => console.log (error))
+//   }
+ 
+
  function updateAuthor(id){
   fetch(`http://localhost:3000/articles/${id}`,{
     method: "PATCH",
@@ -51,33 +86,17 @@ useEffect(() =>{
     })
     setArticles(updatedArticles)
   })
- 
-
- function handleUpdate(updatedArticle){
-
- const updatedArticles = articles.map((article) => {
-    if(article.id === updatedArticle.id){
-      return updatedArticle;
-    }
-  else {
-    return article;
-  }
-  
-  });
-  setArticles(updatedArticles)
-
  }
 
-
+  const arts= articles.map((article,index) =>
+<ArticleItem key={index} name={article.name} title={article.title} image={article.image} description={article.description} content={article.content} id={article.id} author={article.author} deleteArticle={deleteArticle} updateAuthor={updateAuthor}/>
+  )
   return (
     <div className="art" >
       <NewArticleForm  addArticles= {addArticles}/>
       <div>
         <div className="arts" >
-        {articles.map((art,index) =>(
-          <ArticleItem key={index} name={art.name} image={art.image} title ={art.title} description={art.description} content={art.content} id={art.id} author={art.author} deleteArticle={deleteArticle} onUpdateArticle={handleUpdate}  />
-        ))}
-        
+        {arts}
         
         </div>
         <div>

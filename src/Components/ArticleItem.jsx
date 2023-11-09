@@ -142,7 +142,7 @@ function ArticleItem({
       
     </div>
     
-  )
+  
 }
 
 export default ArticleItem;
