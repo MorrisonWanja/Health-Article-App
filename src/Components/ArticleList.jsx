@@ -1,6 +1,10 @@
 import React , {useState, useEffect}from 'react';
 import ArticleItem from './ArticleItem';
-import NewArticleForm from './NewArticleForm'; 
+import NewArticleForm from './NewArticleForm';
+//import Comments from './Comments';
+import { comment } from 'postcss';
+
+
 
 
 function ArticleList() {
@@ -44,6 +48,26 @@ useEffect(() =>{
   });
   setArticles(updatedArticles)
 
+
+ function updateAuthor(id){
+  fetch(`http://localhost:3000/articles/${id}`,{
+    method: "PATCH",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      author: "Thank you for reading my article"
+    })
+  })
+  .then(resp => resp.json())
+  .then(updatedArticle =>{
+    const updatedArticles = articles.map((article)=>{
+      if(article.id === updatedArticle.id) return updatedArticle
+      return article
+    })
+    setArticles(updatedArticles)
+  })
+
  }
 
 
@@ -58,10 +82,14 @@ useEffect(() =>{
         
         
         </div>
+        <div>
+
+        </div>
       </div>
          
     </div>
-  )
+  );
+
 }
 export default ArticleList
   
