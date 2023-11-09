@@ -67,7 +67,8 @@ function ArticleItem({
         <p>{description}</p>
         <p>{content}</p>
         <p>{author}</p>
-      <div id ='edit-btn'>
+      <div id ='edit-btn'>margin-left: 20px;
+      margin-top: 20px;
       
       <button className= 'btn' onClick={openModal}>Edit</button>
 
