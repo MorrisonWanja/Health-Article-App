@@ -32,7 +32,7 @@ To view the server, navigate to [http://localhost:3000/articles]
 To run the application, open the files on your browser using a suitable code editor ie [https://code.visualstudio.com/]
 
 
-# lisence
+# licence
 
 Copyright (c) 2023 Moringa School
 
