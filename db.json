@@ -1,15 +1,6 @@
 {
   "articles": [
     {
-      "id": 6,
-      "name": "The Times of India",
-      "author": "TIMESOFINDIA.COM",
-      "title": "CDC confirms 4 Americans got Coronavirus from Mink; here is all you need to know about the first animal-to-human transmission of COVID virus - Times of India",
-      "description": "The US health agency recently revealed that a variant of COVID witnessed majorly in mink in 2020 had infected at least four Americans.",
-      "image": "https://static.toiimg.com/photo/90979239.cms",
-      "content": "COVID-19 causing coronavirus belongs to a large family of viruses called coronavirus. As per the information available on the website of the CDC, some coronaviruses cause cold-like illnesses in peopl… [+728 chars]"
-    },
-    {
       "id": 7,
       "name": "reew",
       "author": null,
