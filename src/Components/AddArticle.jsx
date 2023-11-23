@@ -25,7 +25,7 @@ function AddArticle(){
       content:content,
       author:author,
     };
-    fetch("http://localhost:3000/articles", {
+    fetch("https://api.jsonbin.io/v3/b/655f73f712a5d376599d8e89", {
       method:"POST",
       headers: {
         "Content-Type":"application/json"
