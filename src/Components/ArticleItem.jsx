@@ -72,7 +72,7 @@ function ArticleItem({
         <p>{description}</p>
         <p>{content}</p>
         <hr className="divider"></hr>
-        <p>Author/s</p>
+        <p>Author(s)</p>
         <p>{author}</p>
 
         <hr className="divider"></hr>
