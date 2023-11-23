@@ -10,7 +10,7 @@ function ArticleList() {
   const [articles, setArticles] =useState([])
   
   const fetchedArticles = ()=>{
-  fetch("https://api.jsonbin.io/v3/b/655f73f712a5d376599d8e89")
+  fetch("http://localhost:3000/articles")
   .then(r => r.json())
   .then(articles => setArticles(articles))
   }
@@ -23,7 +23,7 @@ useEffect(() =>{
  }
 
  function deleteArticle(id){
-  fetch(`https://api.jsonbin.io/v3/b/655f73f712a5d376599d8e89/${id}`,{
+  fetch(`http://localhost:3000/articles/${id}`,{
     method: "DELETE",
   })
   .then(resp => resp.json())
@@ -49,7 +49,7 @@ useEffect(() =>{
   }
 
  function updateAuthor(id){
-  fetch(`https://api.jsonbin.io/v3/b/655f73f712a5d376599d8e89/${id}`,{
+  fetch(`http://localhost:3000/articles/${id}`,{
     method: "PATCH",
     headers: {
       "Content-Type": "application/json"

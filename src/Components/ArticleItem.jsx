@@ -36,7 +36,7 @@ function ArticleItem({
       author: newAuthor,
     };
 
-    fetch(`https://api.jsonbin.io/v3/b/655f73f712a5d376599d8e89/${id}`, {
+    fetch(`http://localhost:3000/articles/${id}`, {
       method: 'PATCH',
       headers: {
         'Content-Type': 'application/json',
