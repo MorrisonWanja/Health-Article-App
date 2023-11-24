@@ -15,7 +15,7 @@ function Home() {
     <h1 className="home-head" >GREEN HEALTH ARTICLES APP</h1>
    
            
-    <div className="home-div" >
+    <div className="home-div" style={isMobile ? { width: '80%' } : {}}>
       
       <div className= "home">
       
