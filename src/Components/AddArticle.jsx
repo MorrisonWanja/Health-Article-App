@@ -41,10 +41,8 @@ function AddArticle(){
 
   }
 
-    return(
-        
-        
-        <div className="add-new-article">
+    return(  
+      <div className="add-new-article">
       <div className='health'>
       <h1>Green Health Articles</h1>
       <img src={health} alt="alternate-text"/>

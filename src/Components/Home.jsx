@@ -20,7 +20,13 @@ function Home() {
       <div className= "home">
       
       <div className='image'>
+      <div>
       <img src={hhh} alt="alternate-text"/>
+      <p className="home-par" >Welcome to our health articles app. 
+      Here you can get information about health. <br></br>
+      They are written by very competitive authors and are very interesting.
+      Enjoy reading the </p>
+      </div>
       
       <img src={health} alt="alternate-text"/>
 
@@ -33,10 +39,7 @@ function Home() {
       
       </div>
       
-      <p className="home-par" >Welcome to our health articles app. 
-      Here you can get information about health. <br></br>
-      They are written by very competitive authors and are very interesting.
-      Enjoy reading the </p>
+      
         
 
            </div>

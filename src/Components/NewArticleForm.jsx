@@ -32,7 +32,7 @@ function NewArticleForm(){
     
 
     return (
-        <form onSubmit={handleSubmit} >
+        <form onSubmit={handleSubmit}>
             <input type="text" id="name" value={formData.name} onChange={handleChange} placeholder="name"/>
             <input type="text" id="author" value={formData.author} onChange={handleChange} placeholder="author"/>
             <input type="text" id="title" value={formData.title} onChange={handleChange} placeholder="title"/>
