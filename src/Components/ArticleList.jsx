@@ -10,7 +10,12 @@ function ArticleList() {
   const [articles, setArticles] =useState([])
   
   const fetchedArticles = ()=>{
-  fetch("http://localhost:3000/articles")
+  fetch("https://api.jsonbin.io/v3/b/655f73f712a5d376599d8e89", {
+   method:"GET",
+   headers: {
+    "X-Master-Key" : "$2a$10$H3/1OUh9KTdhHM6XmzYrTuE6LPD3zq/R/gg4FZssG3ZUCJv.J8zc6"
+   }
+  })
   .then(r => r.json())
   .then(articles => setArticles(articles))
   }
