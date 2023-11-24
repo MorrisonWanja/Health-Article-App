@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
+import { useMediaQuery } from 'react-responsive'
 import './Style.css';
 
 import { Link } from 'react-router-dom'

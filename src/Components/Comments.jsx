@@ -1,4 +1,5 @@
 import React,{useState, useEffect} from 'react'
+import { useMediaQuery } from 'react-responsive'
 
 function Comments() {
   const[comments,setComments]=useState("")

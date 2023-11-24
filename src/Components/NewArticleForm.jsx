@@ -1,7 +1,10 @@
-import React from "react";
+import React from "react"
+import { useMediaQuery } from 'react-responsive'
 
-//function to collect data through a form and add it to our DB
+
 function NewArticleForm(){
+    const isMobile = useMediaQuery({ maxWidth: 767 });
+
     const [formData, setFormData] = useState({
         name:"",
         author:"",

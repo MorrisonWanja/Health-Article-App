@@ -1,4 +1,5 @@
-import React from "react";
+import React from "react"
+import { useMediaQuery } from 'react-responsive'
 import { Link } from "react-router-dom"; // Import the Link component from React Router
 
 function NavBar() {
