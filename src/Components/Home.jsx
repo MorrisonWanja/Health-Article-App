@@ -11,7 +11,7 @@ function Home() {
 
   return (
     
-    <div style={isMobile ? { width: '80%' } : {}}>
+    <div >
     <h1 className="home-head" >GREEN HEALTH ARTICLES APP</h1>
    
            
