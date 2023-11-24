@@ -7,9 +7,11 @@ import  sh from "../Images/sh.jpg"
 
 
 function Home() {
+  const isMobile = useMediaQuery({ maxWidth: 767 })
+
   return (
     
-    <div>
+    <div style={isMobile ? { width: '80%' } : {}}>
     <h1 className="home-head" >GREEN HEALTH ARTICLES APP</h1>
    
            
