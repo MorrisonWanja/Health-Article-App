@@ -22,15 +22,25 @@ function Home() {
       <div className='image'>
       <div>
       <img src={hhh} alt="alternate-text"/>
-      <p className="home-par" >Welcome to our health articles app. 
+      <caption className="home-par" >Welcome to our health articles app. 
       Here you can get information about health. <br></br>
       They are written by very competitive authors and are very interesting.
-      Enjoy reading the </p>
+      Enjoy reading the </caption>
       </div>
-      
+      <div>
       <img src={health} alt="alternate-text"/>
-
+      <caption className="home-par" >Welcome to our health articles app. 
+      Here you can get information about health. <br></br>
+      They are written by very competitive authors and are very interesting.
+      Enjoy reading the </caption>
+      </div>
+      <div>
       <img src={sh} alt="alternate-text"/>
+      <caption className="home-par" >Welcome to our health articles app. 
+      Here you can get information about health. <br></br>
+      They are written by very competitive authors and are very interesting.
+      Enjoy reading the </caption>
+      </div>
       
       <div className='image-item'>
       
