@@ -3,7 +3,6 @@ import { useMediaQuery } from 'react-responsive'
 
 
 function NewArticleForm(){
-    const isMobile = useMediaQuery({ maxWidth: 767 });
 
     const [formData, setFormData] = useState({
         name:"",
@@ -21,7 +20,7 @@ function NewArticleForm(){
         })
     }
     return (
-        <form onSubmit={handleSubmit} style={isMobile ? { width: '80%' } : {}}>
+        <form onSubmit={handleSubmit} >
             <input type="text" id="name" value={formData.name} onChange={handleChange} placeholder="name"/>
             <input type="text" id="author" value={formData.author} onChange={handleChange} placeholder="author"/>
             <input type="text" id="title" value={formData.title} onChange={handleChange} placeholder="title"/>
