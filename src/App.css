@@ -155,11 +155,10 @@ width: 90px;
   display: flex;
   width: 100%;
   justify-content: space-between;
-  
 }
 .home-image img{
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   border-radius: 5px;
   
 }
