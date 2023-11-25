@@ -112,7 +112,12 @@ h1{
     border-radius: 7px;
     width:100%;
 }
-
+.article{
+    width: 100%;
+    height:auto;
+    display: flex;
+    
+}
 .article img{
     margin-left: 40px;
    width: 250px;    
