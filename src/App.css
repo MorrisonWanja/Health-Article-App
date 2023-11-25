@@ -154,7 +154,7 @@ width: 90px;
   background-color: blue;
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  
 }
 .home-image img{
   width: 250px;
