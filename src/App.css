@@ -4,7 +4,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color: rgb(148, 14, 14);
+  background-color: white;
 }
 nav{
   display:flex;
@@ -154,4 +154,8 @@ width: 90px;
   background-color: blue;
   display: flex;
   width: 100%;
+}
+.home-image img{
+  width: 150px;
+  height: 150px;
 }
