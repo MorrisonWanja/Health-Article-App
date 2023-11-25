@@ -40,12 +40,7 @@ function Home() {
       Here you can get information about health. <br></br>
       They are written by very competitive authors and are very interesting.
       Enjoy reading the </caption>
-      </div>
-      
-      <div className='image-item'>
-      
-      </div>
-     
+      </div>  
       
       </div>
       
