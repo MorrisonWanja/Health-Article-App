@@ -64,11 +64,9 @@ function ArticleItem({
   return (
     <div className='articles-list'>
       <div className="article">
-        <div className="title-image">
-        <img src={image} alt="Image Loading..." className="image"  />
-        </div>
         <div className="remaining-content">
         <h1>{name}</h1>
+        <img src={image} alt="Image Loading..." className="image"  />
         <h2>{title}</h2>
         <p>{description}</p>
         <p>{content}</p>
