@@ -151,6 +151,7 @@ width: 90px;
 }
 /* Style the home page Images */
 .home-image{
+  margin-left: 0;
   background-color: blue;
   display: flex;
   width: 100%;
