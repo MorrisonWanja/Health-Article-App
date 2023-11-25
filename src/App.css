@@ -152,3 +152,7 @@ width: 90px;
   display: flex;
   margin-left: 20px;
 }
+/* Style the home page Images */
+.home-image{
+  display: flex;
+}
