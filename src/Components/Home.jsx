@@ -19,7 +19,7 @@ function Home() {
       
       <div className= "home">
       
-      <div className='image'>
+      <div className='home-image'>
       <div>
       <img src={hhh} alt="alternate-text"/>
       <caption className="home-par" >Welcome to our health articles app. 
