@@ -156,4 +156,5 @@ width: 90px;
 .home-image{
   background-color: blue;
   display: flex;
+  width: 100%;
 }
