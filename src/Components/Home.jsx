@@ -11,12 +11,14 @@ function Home() {
 
   return (
     
-    <div className="home-div">
-    <div>
+    <div >
     <h1 className="home-head" >GREEN HEALTH ARTICLES APP</h1>
-    </div>
+   
+           
+    <div className="home-div">
       
-      <div className='home-image'>
+      <div className='image'>
+      <div>
       <img src={hhh} alt="alternate-text"/>
       <caption className="home-par" >Welcome to our health articles app. 
       Here you can get information about health. <br></br>
@@ -40,6 +42,9 @@ function Home() {
       
       <div className='image-item'>
       
+      </div> 
+
+           </div>
       </div>
       <div>
       
