@@ -17,6 +17,8 @@ function Home() {
            
     <div className="home-div">
       
+      <div className= "home">
+      
       <div className='image'>
       <div>
       <img src={hhh} alt="alternate-text"/>
@@ -42,7 +44,13 @@ function Home() {
       
       <div className='image-item'>
       
-      </div> 
+      </div>
+     
+      
+      </div>
+      
+      
+        
 
            </div>
       </div>
