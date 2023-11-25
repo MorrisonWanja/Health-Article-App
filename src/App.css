@@ -1,13 +1,10 @@
-.home{
-  background: red;
-  margin-bottom: 300px;
-}
+
 .home-div{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color: white;
+  background-color: rgb(148, 14, 14);
 }
 nav{
   display:flex;
