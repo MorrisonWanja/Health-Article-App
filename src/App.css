@@ -155,9 +155,11 @@ width: 90px;
   display: flex;
   width: 100%;
   justify-content: space-between;
+  text-align: right;
 }
 .home-image img{
-  width: 250px;
-  height: 250px;
-  m
+  width: 350px;
+  height: 350px;
+  border-radius: 5px;
+  
 }
