@@ -12,8 +12,9 @@ function Home() {
   return (
     
     <div className="home-div">
+    <div>
     <h1 className="home-head" >GREEN HEALTH ARTICLES APP</h1>
-
+    </div>
       
       <div className='home-image'>
       <img src={hhh} alt="alternate-text"/>
